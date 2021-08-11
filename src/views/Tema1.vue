@@ -189,6 +189,39 @@
       br
       br
       |**@ se pronuncia /at/ en inglés.
+    h3.mb-5 B. <i>Tourists Personal Information</i> // Información Personal de los Turistas. 
+    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+      p.mb-0 Here is a chart for you to explore more vocabulary related to a tourist personal information and plans. You can use a dictionary to look up the words you do not know.
+    p.mb-5 Aquí hay una tabla para explorar más vocabulario y expresiones relacionadas con la información personal y los planes de un turista. Se puede consultar un diccionario para buscar las palabras desconocidas.
+    SlyderB.mb-5(:datos="datosSlyder")
+    #t_1_2.titulo-segundo
+      h2 1.2 <i>Assistance to traveler´s requests</i> // Atención a los requerimientos 
+    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+      p.mb-0 It is important to understand what request the passenger has or what is the need that they want to be helped with. These requests range from information on specific tourist destinations, information for the purchase of a flight ticket, changes in air tickets or simply quotations and general information.
+    p.mb-5 Es importante entender el requerimiento que tiene el pasajero o cuál es la necesidad que desea le ayuden a resolver, estas peticiones van desde información de destinos turísticos puntuales, la información para la compra de un tiquete de vuelo, cambios en tiquetes aéreos o simplemente cotizaciones e información general.
+    h3 A. <i>Communicative Functions</i> // Funciones Comunicativas
+    .row.mb-5
+      .col-lg-7
+        .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+          p.mb-0 Let's see some of the most common communicative functions used in the interaction between a ticketing agent and a customer. 
+        p A continuación, algunas de las funciones comunicativas más comunes presentes en la interacción entre el agente y el cliente.
+      .col-lg-5: img(src="@/assets/curso/img9.jpg")(data-aos="slide-left")
+    .row.mb-5
+      .col-lg-7
+        .tarjeta-nota.px-5.py-3
+          h4.mb-0.ms-5 Ticketing Agent = Agente de ventas de tiquetes
+            br
+            |Customer = Cliente
+
+
+
+
+
+
+
+
+
+
 </template>
 
 <script>
@@ -196,7 +229,32 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
-    // variables de vue
+    datosSlyder: [
+      {
+        titulo: '',
+        texto:
+          '<i>You are a tourist from France. You are travelling through South America.<br><br> You want to book a flight to San Andrés Island from Peru. You plan to stay for 2 weeks in Colombia. You are just sightseeing. You are staying at a hotel. </i>',
+        imagen: require('@/assets/curso/img5.svg'),
+      },
+      {
+        titulo: '',
+        texto:
+          '<i>You are a computer software developer from Italy. You need to take a business trip to Bogotá. You will be staying there until next Wednesday at a hotel. You want a non-stop flight for Saturday morning.</i> ',
+        imagen: require('@/assets/curso/img6.svg'),
+      },
+      {
+        titulo: '',
+        texto:
+          '<i>You are a university student from Australia. You are doing some studies on Colombian culture. You will be spending 3 months in the Atlantic Coast region. You need to book a return ticket to Barranquilla.</i>',
+        imagen: require('@/assets/curso/img7.svg'),
+      },
+      {
+        titulo: '',
+        texto:
+          '<i>You are a musician from New Zealand. You are going on a tour around Colombia to explore the music there. You will stay for 4 weeks at a friend´s house. You make a reservation for an economy class ticket.</i>',
+        imagen: require('@/assets/curso/img8.svg'),
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
@@ -209,4 +267,8 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="sass" scoped>
+.tarjeta-nota
+  background-color: $color-primario
+  border-radius: 0px 10px 10px 0px
+</style>
