@@ -212,12 +212,632 @@
           h4.mb-0.ms-5 Ticketing Agent = Agente de ventas de tiquetes
             br
             |Customer = Cliente
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        PasosA.color-acento-contenido.mb-5(tipo="n")
+          .row
+            .col-md-2
+              figure
+                img(src='@/assets/curso/img10.svg', alt='Texto que describa la imagen' style='width: 85px')
+            .col-md-5.mb-4.mb-md-0
+              h4 (Ticketing Agent)
+              p.mb-0 
+                b <i>Greeting and Offering Service</i>
+                br
+                | <i>(Saludar y ofrecer servicio)</i>
+          .row.justify-content-end
+            .col-md-5.mb-4.mb-md-0
+              h4 (Customer)
+              p.mb-0 
+                b <i>Saying what you want</i>
+                br
+                | <i>(Lo que el cliente necesita o pudiera responder)</i>
+            .col-md-2
+              figure
+                img(src='@/assets/curso/img11.svg', alt='Texto que describa la imagen' style='width: 85px')
+          .row
+            .col-md-2
+              figure
+                img(src='@/assets/curso/img11.svg', alt='Texto que describa la imagen' style='width: 85px')
+            .col-md-5.mb-4.mb-md-0
+              h4 (Customer)
+              p.mb-0 
+                b <i>Asking about the ticket cost</i>
+                br
+                | <i>(Preguntando el valor del tiquete)</i>
+          .row.justify-content-end
+            .col-md-5.mb-4.mb-md-0
+              h4 (Ticketing Agent)
+              p.mb-0 
+                b <i>Asking what type of ticket </i>
+                br
+                | <i>(Preguntando al cliente por la clase en la que desea volar)</i>
+            .col-md-2
+              figure
+                img(src='@/assets/curso/img10.svg', alt='Texto que describa la imagen' style='width: 85px')
+          .row
+            .col-md-2
+              figure
+                img(src='@/assets/curso/img10.svg', alt='Texto que describa la imagen' style='width: 85px')
+            .col-md-5.mb-4.mb-md-0
+              h4 (Ticketing Agent)
+              p.mb-0 
+                b <i>Telling the price of the ticket </i>
+                br
+                | <i>(Dando el precio del tiquete)</i>
+          .row.justify-content-end
+            .col-md-5.mb-4.mb-md-0
+              h4 (Customer)
+              p.mb-0 
+                b <i>Making a reservation</i>
+                br
+                | <i>(Haciendo una reserva)</i>
+            .col-md-2
+              figure
+                img(src='@/assets/curso/img11.svg', alt='Texto que describa la imagen' style='width: 85px')
+          .row
+            .col-md-2
+              figure
+                img(src='@/assets/curso/img10.svg', alt='Texto que describa la imagen' style='width: 85px')
+            .col-md-5.mb-4.mb-md-0
+              h4 (Ticketing Agent)
+              p.mb-0 
+                b <i>Asking someone´s name</i>
+                br
+                | <i>(Preguntar el nombre al cliente)</i>
+          .row.justify-content-end
+            .col-md-5.mb-4.mb-md-0
+              h4 (Customer)
+              p.mb-0 
+                b <i>Giving your name</i>
+                br
+                | <i>(Dar el nombre)</i>
+            .col-md-2
+              figure
+                img(src='@/assets/curso/img11.svg', alt='Texto que describa la imagen' style='width: 85px')
+          .row
+            .col-md-2
+              figure
+                img(src='@/assets/curso/img10.svg', alt='Texto que describa la imagen' style='width: 85px')
+            .col-md-5.mb-4.mb-md-0
+              h4 (Ticketing Agent)
+              p.mb-0 
+                b <i>Asking about the payment method </i>
+                br
+                | <i>(Preguntar por la forma de pago)</i>
+          .row.justify-content-end
+            .col-md-5.mb-4.mb-md-0
+              h4 (Customer)
+              p.mb-0 
+                b <i>Saying how you would pay </i>
+                br
+                | <i>(Decir cómo será la forma de pago)</i>
+            .col-md-2
+              figure
+                img(src='@/assets/curso/img11.svg', alt='Texto que describa la imagen' style='width: 85px')
+          .row
+            .col-md-2
+              figure
+                img(src='@/assets/curso/img10.svg', alt='Texto que describa la imagen' style='width: 85px')
+            .col-md-5.mb-4.mb-md-0
+              h4 (Ticketing Agent)
+              p.mb-0 
+                b <i>Double-checking the booking information</i>
+                br
+                | <i>(Confirmando la información de la reserva)</i>
+          .row.justify-content-end
+            .col-md-5.mb-4.mb-md-0
+              h4 (Customer)
+              p.mb-0 
+                b <i>Saying thank you </i>
+                br
+                | <i>(Dando las gracias)</i>
+            .col-md-2
+              figure
+                img(src='@/assets/curso/img11.svg', alt='Texto que describa la imagen' style='width: 85px')
+    h3 B. <i>Structures used during flight reservation conversations</i> // Estructuras usadas para reservar un vuelo    
+    .row.mb-5
+      .col-lg-7
+        .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+          p.mb-0 Let's now examine some of the structures used for the above communicative functions during a conversation.
+        p Ahora, se examinarán algunas de las estructuras usadas para las funciones comunicativas, detalladas anteriormente, durante una conversación.
+      .col-lg-5: img(src="@/assets/curso/img12.jpg")(data-aos="slide-left")
+    h3.fst-italic.mb-5 COMMUNICATIVE FUNCTIONS // FUNCIONES COMUNICATIVAS
+      br
+      |(Making Flight Reservations // Haciendo reservas de vuelo)  
+    .row.mb-5
+      .col-lg-8
+        h4.texto--2 Greeting and Offering Service
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta.cuadro-listados--1
+              span 1
+            | SENA Airlines, Good Morning, May I help you?
+          li 
+            .lista-ol--cuadro__vineta.cuadro-listados--1
+              span 2
+            | SENA Airlines, Good Afternoon, May I help you?
+          li 
+            .lista-ol--cuadro__vineta.cuadro-listados--1
+              span 3
+            | SENA Airlines, Good Evening, May I help you?
+          li 
+            .lista-ol--cuadro__vineta.cuadro-listados--1
+              span 4
+            | SENA Airlines, Good Morning, Can I help you?
+          li 
+            .lista-ol--cuadro__vineta.cuadro-listados--1
+              span 5
+            | SENA Airlines, Good Morning, How May I help you?
+          li 
+            .lista-ol--cuadro__vineta.cuadro-listados--1
+              span 6
+            | SENA Airlines, Good afternoon, How can I help you?
+          li.ps-4.mt-4
+            ol.lista-ol--cuadro
+              li  
+                h4.texto--3 Saying what you want
+              li 
+                .lista-ol--cuadro__vineta.cuadro-listados--3
+                  span 1
+                | Do you have any flights to San Andres Island next Friday morning?
+              li 
+                .lista-ol--cuadro__vineta.cuadro-listados--3
+                  span 2
+                | I need a ticket to San Andres for next Friday morning
+              li 
+                .lista-ol--cuadro__vineta.cuadro-listados--3
+                  span 3
+                | I need a ticket to San Andres for next Friday morning
+              li.ps-4.mt-4
+                ol.lista-ol--cuadro
+                  li  
+                    h4.texto--3 Asking about the ticket cost
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--3
+                      span 1
+                    | Could you tell me how much a return flight costs?
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--3
+                      span 2
+                    | How much is a round trip ticket?
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--3
+                      span 3
+                    | How much is a one-way ticket?
+              li.ps-4.mt-4
+                ol.lista-ol--cuadro
+                  li  
+                    h4.texto--2 Telling the price of the ticket
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--1
+                      span 1
+                    | That would be US$450
 
-
-
-
-
-
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--1
+                      span 2
+                    | The price is $877.
+              li.ps-4.mt-4
+                ol.lista-ol--cuadro
+                  li  
+                    h4.texto--2 Asking what type of ticket
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--1
+                      span 1
+                    | Economy, business class or first-class ticket?
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--1
+                      span 2
+                    | How would you like to fly? Economy? Business? Or first class?
+              li.ps-4.mt-4
+                ol.lista-ol--cuadro
+                  li  
+                    h4.texto--3 Making a reservation
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--3
+                      span 1
+                    | OK. Could I make a reservation?
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--3
+                      span 2
+                    | Can you book it for me, please?
+              li.ps-4.mt-4
+                ol.lista-ol--cuadro
+                  li  
+                    h4.texto--2 Asking someone's name
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--1
+                      span 1
+                    | Could I have your name, please?
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--1
+                      span 2
+                    | Can you tell me your name, please?
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--1
+                      span 3
+                    | What is your name, Sir?
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--1
+                      span 4
+                    | What is your name Ma´am?
+              li.ps-4.mt-4
+                ol.lista-ol--cuadro
+                  li  
+                    h4.texto--3 Giving your name
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--3
+                      span 1
+                    | My name is Mark Miller, that´s M-A-R-K M-I-L-L-E-R
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--3
+                      span 2
+                    | It´s Mark Miller, M-A-R-K M-I-L-L-E-R
+                  
+              li.ps-4.mt-4
+                ol.lista-ol--cuadro
+                  li  
+                    h4.texto--2 Asking about the payment method
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--1
+                      span 1
+                    | How would you like to pay, Ms. Jones?
+              li.ps-4.mt-4
+                ol.lista-ol--cuadro
+                  li  
+                    h4.texto--3 Saying how you would pay
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--3
+                      span 1
+                    | Can I pay at the check-in desk when I pick up my ticket?
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--3
+                      span 2
+                    | Do you take credit (cards)?
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--3
+                      span 3
+                    | Do you take cash?
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--3
+                      span 4
+                    | In cash
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--3
+                      span 5
+                    | Credit Card
+              li.ps-4.mt-4
+                ol.lista-ol--cuadro
+                  li  
+                    h4.texto--2 Double-checking the booking information
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--1
+                      span 1
+                    | Now you have been booked, Ms. Jones. The flight leaves at 9:45, and your arrival in San Andres Island will be at 12:05 local time. The flight number is SNA 427.
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--1
+                      span 2
+                    | Now you have been booked, Mr. Miller. The flight departs at 9:45, and arrives in San Andres Island at 12:05, local time. The flight number is SNA 427.
+              li.ps-4.mt-4
+                ol.lista-ol--cuadro
+                  li  
+                    h4.texto--3 Saying thank you
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--3
+                      span 1
+                    | Thank you.
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--3
+                      span 2
+                    | Thank you very much
+                  li 
+                    .lista-ol--cuadro__vineta.cuadro-listados--3
+                      span 3
+                    | Thanks a lot.
+      .col-lg-4: img(src="@/assets/curso/img13.svg")
+    h3.fw-normal 
+      b C. Try to identify the communicative functions 
+      | in the following dialogue between a Ticketing Agent and a Customer. // 
+      b Se deben intentar identificar las funciones 
+      | comunicativas presentes en el siguiente diálogo entre un agente de venta de tiquetes y un cliente.
+    .row.align-items-center.justify-content-center
+      .col-lg-5: img(src="@/assets/curso/img14.svg")
+      .col-lg-7
+        .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+          p.mb-0 Do you have any flights to San Andres Island next Friday morning?
+        p ¿Tiene vuelos para San Andrés para el próximo viernes en la mañana?
+    .cuadro-dialogos.p-5.mb-5
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Ticketing Agent:
+        .col-lg-6
+          p.texto--4.mb-2 SENA Airlines, good morning. How may I help you?
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Mary Jones:
+        .col-lg-6
+          p.texto--5.mb-2 Good morning. Do you have any flights to San Andres Island next Friday morning?
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Ticketing Agent:
+        .col-lg-6
+          p.texto--4.mb-2 Just one moment, please... Yes. There´s a flight at 9:45 and one at 11:00.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Mary Jones:
+        .col-lg-6
+          p.texto--5.mb-2 OK. Could you tell me how much is a round-trip ticket? I´ll be staying four weeks.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Ticketing Agent:
+        .col-lg-6
+          p.texto--4.mb-2 Economy, business class or first-class ticket?
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Mary Jones:
+        .col-lg-6
+          p.texto--5.mb-2 Economy, please.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Ticketing Agent:
+        .col-lg-6
+          p.texto--4.mb-2 That would be US$450.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Mary Jones:
+        .col-lg-6
+          p.texto--5.mb-2 OK. Can you book it for me, please?
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Ticketing Agent:
+        .col-lg-6
+          p.texto--4.mb-2 Of course. Which flight would you like?
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Mary Jones:
+        .col-lg-6
+          p.texto--5.mb-2 The 9:45, please. 
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Ticketing Agent:
+        .col-lg-6
+          p.texto--4.mb-2 Could you tell me your name, please?
+      .row.align-items-center.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Mary Jones:
+        .col-lg-6
+          p.texto--5.mb-2 It´s Mark Miller, M-A-R-K M-I-L-L-E-R.
+      .row.align-items-center.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Ticketing Agent:
+        .col-lg-6
+          p.texto--4.mb-2 How would you like to pay, Mr. Miller?
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Mary Jones:
+        .col-lg-6
+          p.texto--5.mb-2 Can I pay at the check-in desk when I pick up my ticket?
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Ticketing Agent:
+        .col-lg-6
+          p.texto--4.mb-2 Yes, but you will have to confirm this reservation at least two hours before departure time.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Mary Jones:
+        .col-lg-6
+          p.texto--5.mb-2 I understand.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Ticketing Agent:
+        .col-lg-6
+          p.texto--4.mb-2 Now you have been booked, Mr. Miller. The flight departs at 9:45, and arrives in San Andres Island at 12:05, local time. The flight number is SNA 427
+      .row.justify-content-center.mt-4
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Mary Jones:
+        .col-lg-6
+          p.texto--5.mb-2 Thank you.
+    #t_1_3.titulo-segundo
+      h2 1.3 <i>Information Record</i> //  Registro de la información 
+    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+      p.mb-0 Registering and interpreting the information in the system is of utmost importance to guarantee the optimal provision of the service and that the real need of the passenger is being met.
+    p La información e interpretar la información en el sistema es de suma importancia para garantizar la óptima prestación del servicio y que se esté cubriendo la necesidad real del pasajero.
+    h4 A. <i>Making a ticket inquiry at the airport.</i>  // Solicitando un tiquete en el aeropuerto.
+    .row.justify-content-center.align-items-center
+      .col-lg-4: img(src="@/assets/curso/img15.svg")
+      .col-lg-8 
+        .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+          p.mb-0 Pay attention at the way the attendant gets and interprets the information given both by the passenger and by the system. 
+        p Se debe prestar atención a la forma en que la auxiliar obtiene e interpreta la información proporcionada tanto por el pasajero como por el sistema.
+    .cuadro-dialogos.p-5.mb-5
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Attendant:
+        .col-lg-6
+          p.texto--4.mb-2 Hello, how may I help you, sir?
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Customer:
+        .col-lg-6
+          p.texto--5.mb-2 Hello, I need to board the next flight to Cali. Can you help me with seat availability?
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Attendant:
+        .col-lg-6
+          p.texto--4.mb-2 Sure, sir. May I know who else is traveling with you?
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Customer:
+        .col-lg-6
+          p.texto--5.mb-2 It's just me.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Attendant:
+        .col-lg-6
+          p.texto--4.mb-2 Would you be O.K. with a multi-stop flight?
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Customer:
+        .col-lg-6
+          p.texto--5.mb-2 It would be better if you can give me a seat on a direct flight.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Attendant:
+        .col-lg-6
+          p.texto--4.mb-2 I am so sorry, sir. The system shows that the next flight is scheduled two hours from now which is around 5:15 pm but there are no seats available. 
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Customer:
+        .col-lg-6
+          p.texto--5.mb-2 And what about after that?
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Attendant:
+        .col-lg-6
+          p.texto--4.mb-2 Then, you can board the flight at 7:25 pm.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Customer:
+        .col-lg-6
+          p.texto--5.mb-2 And when is the flight with multiple stops?
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Attendant:
+        .col-lg-6
+          p.texto--4.mb-2 That one is scheduled at 6:10 pm. It has one stop in between and you can reach Cali by 10:30 pm.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Customer:
+        .col-lg-6
+          p.texto--5.mb-2 Well, if that is case, please, make a reservation in this one.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Attendant:
+        .col-lg-6
+          p.texto--4.mb-2 Sure, sir. May I have your name, please?
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Customer:
+        .col-lg-6
+          p.texto--5.mb-2 Martin Kirkman.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Attendant:
+        .col-lg-6
+          p.texto--4.mb-2 Age, please.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Customer:
+        .col-lg-6
+          p.texto--5.mb-2 35.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Attendant:
+        .col-lg-6
+          p.texto--4.mb-2 Now, I need your contact number, please.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Customer:
+        .col-lg-6
+          p.texto--5.mb-2 777—4242-6532
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Attendant:
+        .col-lg-6
+          p.texto--4.mb-2 Here you are. A reservation is made under the name of Mr. Martin Kirkman, from Barranquilla to Cali departing at 6:10 pm. Is that ok, sir?
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Customer:
+        .col-lg-6
+          p.texto--5.mb-2 Yes.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Attendant:
+        .col-lg-6
+          p.texto--4.mb-2 How would you like to pay, sir?
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Customer:
+        .col-lg-6
+          p.texto--5.mb-2 Credit card.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Attendant:
+        .col-lg-6
+          p.texto--4.mb-2 Can I have your credit card, please?
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Customer:
+        .col-lg-6
+          p.texto--5.mb-2 Yes, here it is.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Attendant:
+        .col-lg-6
+          p.texto--4.mb-2 Thank you, sir. You can check your e-mail. You would have received a confirmation message along with the flight details.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Customer:
+        .col-lg-6
+          p.texto--5.mb-2 Just let me check… Yes, I have received it. Thank you!
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Attendant:
+        .col-lg-6
+          p.texto--4.mb-2 Anything else, sir?
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--5.mb-2 Customer:
+        .col-lg-6
+          p.texto--5.mb-2 No. thank you.
+      .row.justify-content-center
+        .col-lg-2.justify-content-end
+          h5.texto--4.mb-2 Attendant:
+        .col-lg-6
+          p.texto--4.mb-2 Hope you have a great flight!
+    h3.fw-normal 
+      b B. With the help of your tutor and 
+      |the use of a dictionary, look up any words you do not know in the dialogue above. Here are some of them. // 
+      b Con la ayuda del tutor y 
+      |el uso de un diccionario, buscar los términos y expresiones desconocidas en el diálogo anterior. Aquí hay algunos de ellos
+    .row.align-items-start
+      .col-lg-4: img(src="@/assets/curso/img16.svg" style="width: 395px")
+      .col-lg-8
+        .tabla.mb-5 
+          table
+            thead.text-white.bg-head.text-center
+              tr
+                th Inglés
+                th Español
+            tbody.fw-bold
+              tr
+                td Seat availability
+                td Disponibilidad de asientos
+              tr
+                td One stop
+                td Una parada
+              tr
+                td Multi-stop flight
+                td Vuelo con varias escala
+              tr
+                td Direct flight
+                td Vuelo Directo
+              tr
+                td Scheduled
+                td Programado
+              tr
+                td A reservation is made under the name of…
+                td Se ha hecho una reserva a nombre de…
+              tr
+                td A confirmation message
+                td Un mensaje de confirmación
+              tr
+                td Let me check
+                td Déjeme verificar
+              tr
+                td Anything else?
+                td ¿Algo más?
 
 
 
