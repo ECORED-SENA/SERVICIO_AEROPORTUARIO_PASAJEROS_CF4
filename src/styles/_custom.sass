@@ -49,3 +49,36 @@ tbody
     color: $color-sistema-texto
 .cuadro-dialogos
   background-color: #F3F9FF
+.hover-transform
+  transition: transform 0.5s
+  &:hover 
+    z-index: 99
+    transform: scale(1.1)
+.w-100
+  width: 100%
+.small-dots
+  .img-infografica__item__dot
+    &:before
+      opacity: 1
+      width: 50% !important
+      height: 50% !important
+    &:after
+      opacity: 1
+      width: 50% !important
+      height: 50% !important
+.small-dots2
+  .img-infografica__item__dot
+    &:before
+      opacity: 1
+      width: 40% !important
+      height: 40% !important
+    &:after
+      opacity: 1
+      width: 40% !important
+      height: 40% !important
+.red-dots
+  .img-infografica__item__dot
+    &:before
+      background-color: red  !important
+    &:after
+      background-color: red !important
