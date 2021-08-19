@@ -1302,17 +1302,20 @@
         .tarjeta.color-secundario.px-3.py-3(x="40.9%" y="31.2%")
           .h5.mb-2.text-center.mb-0 Penalidades
         .tarjeta.color-secundario.px-3.py-3(x="31.9%" y="51.2%")
-          .h5.mb-2.mb-0 PENALIDADES ENTRE ESTADOS UNIDOS Y SUDAMÉRICA PARA TARIFAS TIPO LEO00RIS
-          .h6 CANCELACIONES
-          p en cualquier momento un cargo de usd 175.00 para reembolso exención por cambio de horario/enfermedad o muerte de un pasajero o familiar.
+          .h5.mb-2.mb-0 Penalidades entre Estados Unidos y Sudamérica para tarifas LEO00RIS
+          .h6 Cancelaciones
+          p En cualquier momento un cargo de usd 175.00 para reembolso exención por cambio de horario/enfermedad o muerte de un pasajero o familiar.
           p 
-            b nota
+            b Nota
             br
-            |el miembro de la familia debe ser pariente en primer grado. la exención también se aplica para el acompañante de viaje. 
+            |El miembro de la familia debe ser pariente en primer grado. la exención también se aplica para el acompañante de viaje. 
             br
             |las exenciones por enfermedad/muerte deben ser confirmadas con un certificado médico de muerte válido. 
             br
-            |nota-ver descuento para niños/bebés en las reglas de tarifa para determinar si es aplicable.
+            br
+            b Nota 
+            br
+            | Ver descuento para niños/bebés en las reglas de tarifa para determinar si es aplicable.
     h3 C. Most commonly used terms / Términos más utilizados
     h4 Part 1 / Parte 1
     .color-primario3.mb-5.p-5
