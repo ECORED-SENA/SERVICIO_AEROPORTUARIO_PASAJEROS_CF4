@@ -5,22 +5,22 @@
     .titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span 2
-      h1 <i>Portfolio services</i> // Servicios del portafolio
+      h1 Portfolio services / Servicios del portafolio
     .row.mb-5
       .col-lg-7
-        .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+        .tarjeta-idioma.px-5.py-4.mb-4
           p.mb-0 The airlines have a variety of services focused on the satisfaction and enjoyment of the trip in order to retain their customers. The great challenge of those who guide the tourist activity is preparing themselves to guarantee a positive travel experience for passengers, providing accurate information and thus obtaining efficient results with customers.
         p Las empresas aéreas tienen una variedad de servicios enfocados a la satisfacción y disfrute del viaje con el fin de fidelizar sus clientes. El gran reto de quien orienta la actividad turística es la responsabilidad de prepararse para garantizar una experiencia positiva de viaje a los pasajeros, brindando una información precisa y obtener unos resultados eficientes con los clientes.
       .col-lg-5: img(src="@/assets/curso/img17.svg")(data-aos="flip-up")
     #t_2_1.titulo-segundo
-      h2 2.1 <i>Guidance on location and characteristics of the destination</i> // Orientación sobre ubicación y características del destino
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+      h2 2.1 Guidance on location and characteristics of the destination / Orientación sobre ubicación y características del destino
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 Once the travel needs of your clients have been identified, it is very important to provide clear, precise and adequate information, both in your native language and in English, about the destination, flights, connections, transfers, accommodation, excursions, language, etc. The priority is to ensure that the traveler has both a memorable stay and experience.
     p.mb-5 Una vez identificadas las necesidades de viaje de los clientes es muy importante brindar información clara, precisa y adecuada, tanto en la lengua nativa como en inglés, acerca del destino, vuelos, conexiones, traslados, alojamiento, excursiones, idioma y todo lo que se requiera. La prioridad es garantizar que el viajero tenga tanto una estancia como una experiencia memorable.
-    h3 A. <i>Relevant Vocabulary</i> // Vocabulario relevante
+    h3 A. Relevant vocabulary / Vocabulario relevante
     .row.mb-5
       .col-lg-7
-        .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+        .tarjeta-idioma.px-5.py-4.mb-4
           p.mb-0 Let´s explore some vocabulary connected with tourism. 
         p Ahora, se exploran algunos términos relacionados con el turismo.
       .col-lg-5: img(src="@/assets/curso/img18.svg")(data-aos="flip-up")
@@ -35,7 +35,7 @@
           h4 Countries and
               br
               |Nationalities 
-          p Argentina – Argentinian • Brazil – Brazilian • China – Chinese • Egypt – Egyptian • France – French • The UK/The United Kingdom – British • Ireland – Irish • Italy – Italian • Japan – Japanese • Mexico – Mexican • Peru – Peruvian • Poland – Polish • Russia – Russian • Scotland – Scottish • Spain – Spanish • Switzerland – Swiss • Turkey – Turkish • The US/The United States – American • Colombia – Colombian.
+          p.text-small Argentina – Argentinian - Brazil – Brazilian  China – Chinese - Egypt – Egyptian - France – French - The UK/The United Kingdom – British - Ireland – Irish - Italy – Italian - Japan – Japanese - Mexico – Mexican - Peru – Peruvian - Poland – Polish - Russia – Russian - Scotland – Scottish - Spain – Spanish - Switzerland – Swiss - Turkey – Turkish - The US/The United States – American - Colombia – Colombian.
       .col-md-6.col-xl.mb-4.mb-xl-0
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -43,8 +43,8 @@
         .tarjeta-numerada.color-secundario.--borde.p-5.h-100.hover-transform
           .tarjeta-numerada__numero.p-2.d-flex
             img(src='@/assets/curso/img20.svg' style='width: 55px').m-auto
-          h4 Tourism Terminology to book (make a reservation)
-          p Guidebook • luggage/baggage • package holiday • passport • sightseeing • souvenir • tickets • travel agency • trip/excursion.
+          h4 Tourism terminology to book (make a reservation)
+          p.text-small Guidebook - luggage/baggage - package holiday - passport - sightseeing - souvenir - tickets - travel agency - trip/excursion.
       .col-md-6.col-xl.mb-4.mb-xl-0
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -53,7 +53,7 @@
           .tarjeta-numerada__numero.align-items-center.d-flex
             img(src='@/assets/curso/img21.svg' style='width: 55px').m-auto
           h4 Places
-          p Airport • amusement park • apartment • bank • bus station • train station • art gallery • bakery • bar • beach • beauty parlor • bookstore • cafe • clothing store • castle • church • city • city hall • Gym • drugstore/pharmacy • movie theater • restaurant.
+          p.text-small Airport - amusement park - apartment - bank - bus station - train station - art gallery - bakery - bar - beach - beauty parlor - bookstore - cafe - clothing store - castle - church - city - city hall - Gym - drugstore/pharmacy - movie theater - restaurant.
       .col-md-6.col-xl.mb-4.mb-xl-0
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -62,13 +62,15 @@
           .tarjeta-numerada__numero.p-2.d-flex
             img(src='@/assets/curso/img22.svg' style='width: 55px').m-auto
           h4 Transport 
-          p boat • bus • car • coach • helicopter • motorbike • plane • ship • taxi • train • tram • underground/Subway • van.
+          p.text-small boat - bus - car - coach - helicopter - motorbike - plane - ship - taxi - train - tram - underground/Subway - van.
     //todo: Solucionar problema de la tarjeta en desktops
+    h3 B. Words connected with tourism / Términos relacionados con el turismo
+    p.mb-5 A continuación, se podrán revisar diversos términos que se utilizan con frecuencia en el área del turismo:
     SlyderD.mb-5(:datos="datosSlyder")
-    h3 C. <i>Prepositions</i> // Preposiciones
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
-      p.mb-0 Let´s explore some vocabulary connected with tourism. 
-    p.mb-5 Ahora, se exploran algunos términos relacionados con el turismo.
+    h3 C. Prepositions / Preposiciones
+    .tarjeta-idioma.px-5.py-4.mb-4
+      p.mb-0 We will now look into different types of prepositions to talk about location, time and to give directions. 
+    p.mb-5 Ahora se examinarán diferentes tipos de preposiciones para hablar de ubicación, tiempo y dar direcciones.
     .row.mb-5
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tabla-b.color-acento-contenido.mb-5
@@ -77,36 +79,36 @@
           table
             tr
               th
-                h4 I. From – To (Desde…Hasta // De...Hasta) 
-                p We travel from our place to our destination.
+                h4 I. From – To (Desde…Hasta / De...Hasta) 
+                p We travel <i>from</i> our place <i>to</i> our destination.
                   br
                   | They drove/flew/walked from Bogota to Cali
             tr
               th
                 h4 II. Arrive at/in (Llegar a)
-                p We arrive in Colombia/Barranquilla.
+                p We <i>arrive in</i> Colombia/Barranquilla.
                   br
-                  | We arrived at the airport/at the hotel/at the bus station.
+                  | We arrived <i>at the</i> airport/at the hotel/at the bus station.
             tr
               th
                 h4 III. By, on (En – un medio de transporte)
-                p We travel by car (by bus, train, plain, helicopter, etc. and by sea/air.
+                p <i>We travel by car</i> (by bus, train, plain, helicopter, etc. and <i>by sea/air.</i>
                   br
-                  | We can walk or go on foot.
+                  | We can <i>walk</i> or <i>go on foot</i>.
                   br
-                  | We can cycle or go on a bicycle or by bicycle.
+                  | We can <i>cycle</i> or <i>go on a bicycle or by bicycle</i>.
                   br
-                  | We can ride or go on horseback:
+                  | We can <i>ride</i> or <i>go on horseback</i>
             tr
               th
                 h4 IV. Get in/into/on/onto Get off/out of (Subirse Bajarse – de algún tipo de vehículo)
-                p We get into a private or public vehicle
+                p We <i>get into</i> a private or public vehicle
                   br
-                  | We get on a public vehicle,
+                  | We <i>get on</i> a public vehicle,
                   br
-                  | But we go on board a boat.
+                  | But we <i>go on board</i> a boat.
                   br
-                  | We get on/onto a horse, camel, bicycle.
+                  | We <i>get on/onto a horse</i>, camel, bicycle.
                   br
                   |
       .col-md-6.col-xl.mb-4.mb-xl-0
@@ -117,56 +119,98 @@
             tr
               th
                 h4 I. On (El, los, en el – para hablar de fechas y día)
-                p Preposition <b>ON</b> is used with:
+                p Preposition <b><i>ON</i></b> is used with:
                 ul.lista-ul--color.fw-normal
                   li 
                     i.fas.fa-check
-                    | days of week (on Monday/Tuesday/Wednesday)
+                    p.mb-0 days of week (  
+                      spam.italic on 
+                      | Monday/Tuesday/Wednesday)
                   li 
                     i.fas.fa-check
-                    | dates (on 20th of July/August/December)
+                    p.mb-0 dates (
+                      spam.italic on  
+                      |20th of July/August/December)
                   li 
                     i.fas.fa-check
-                    | names of holidays if it contains the word Day (on Christmas Day)
+                    p.mb-0 names of holidays if it contains the word Day (
+                      spam.italic on 
+                      | Christmas Day)
                   li 
                     i.fas.fa-check
-                    | expressions on the weekend and on weekends (American English)
+                    p.mb-0 expressions on the weekend and 
+                      spam.italic on 
+                      |weekends (American English)
             tr
               th
                 h4 II. In (en – para referirse a años, meses, estaciones y diferentes momentos del día)
-                p Preposition <b>IN</b> is used with:
+                p Preposition <b><i>IN</i></b> is used with:
                 ul.lista-ul--color.fw-normal
                   li 
                     i.fas.fa-check
-                    | year (in 2019)
+                    p.mb-0 year (
+                      spam.italic in  
+                      | 2019)
                   li 
                     i.fas.fa-check
-                    | months (in January, in May, in July)
+                    p.mb-0 months (
+                      spam.italic in  
+                      |January, 
+                      spam.italic in  
+                      | May, 
+                      spam.italic in  
+                      | July)
                   li 
                     i.fas.fa-check
-                    | times of the day (in the morning, in the afternoon, in the evening¸)
+                    p.mb-0 times of the day (
+                      spam.italic in  
+                      |  the morning, 
+                      spam.italic in  
+                      |  the afternoon,  
+                      spam.italic in  
+                      |  the evening¸)
                   li 
                     i.fas.fa-check
-                    | seasons (in summer, in fall/autumn, in winter, in spring )
+                    p.mb-0 seasons (
+                      spam.italic in  
+                      | summer, 
+                      spam.italic in  
+                      | fall/autumn, 
+                      spam.italic in  
+                      | winter, 
+                      spam.italic in  
+                      | spring )
             tr
               th
                 h4 III. At (A las, a la, al, en la, en el, en – cuando hablamos de la hora, ciertos períodos del día, temporadas del año y otras expresiones)
-                p Preposition <b>AT</b> is used with:
+                p Preposition <b><i>AT</i></b> is used with:
                 ul.lista-ul--color.fw-normal
                   li 
                     i.fas.fa-check
-                    | time (at 4 o'clock)
+                    p.mb-0 time (
+                      spam.italic at
+                      |   4 o'clock)
                   li 
                     i.fas.fa-check
-                    | certain times of the day (at night, at sunset)
+                    p.mb-0 certain times of the day (
+                      spam.italic at 
+                      | night, 
+                      spam.italic at 
+                      |sunset)
                   li 
                     i.fas.fa-check
-                    | holiday periods (at Christmas)
+                    p.mb-0 holiday periods (
+                      spam.italic at 
+                      | Christmas)
                   li 
                     i.fas.fa-check
-                    | expressions at the weekend and at weekends (British English)
-    h3 D. <i>Asking for and Giving Directions</i> // Pedir y dar direcciones
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+                    p.mb-0 expressions  
+                      spam.italic at 
+                      | the weekend and 
+                      spam.italic at 
+                      | weekends (British English)
+    h3 D. Asking for and giving directions / Pedir y dar direcciones
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 Learn how to ask for and give directions to someone, using certain words and phrases.
     p.mb-5 A continuación, se aprenderá a pedir y dar instrucciones a alguien, usando ciertas palabras y frases.
     .row.mb-5
@@ -257,11 +301,6 @@
             tr
               th 
                 p 
-                  b It’s on the left/right.  
-                  |(Está a la izquierda/derecha).
-            tr
-              th 
-                p 
                   b Across…   
                   |(Cruzando…). 
             tr
@@ -304,7 +343,7 @@
                 p 
                   b It’s at the end of the block.      
                   |(Está al final de la cuadra).
-    h3 E. <i>Practice the Asking for and Giving Directions with the following four mini-dialogues</i> // Se debe practicar el pedir y dar direcciones con los siguientes cuatro minidiálogos.
+    h3 E. Practice the asking for and giving directions with the following four mini-dialogues / Se debe practicar el pedir y dar direcciones con los siguientes cuatro minidiálogos
     .cuadro-dialogos.mb-3
       .row.mb-5.align-items-center
         .col-lg-5: img(src="@/assets/curso/img33.svg").mt-3
@@ -362,12 +401,12 @@
               p.mb-0.texto--5 Walk along Murillo Street for three blocks. Then turn right at the corner of Murillo Street and La Sabana Avenue. The Hilton Hotel is at the end of the block. 
         .col-lg-5: img(src="@/assets/curso/img34.svg").mt-3
     #t_2_2.titulo-segundo
-      h2 2.2 <i>Information about tourist destinations</i> // Información de destinos turísticos
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+      h2 2.2 Information about tourist destinations / Información de destinos turísticos
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 Being prepared to answer, both in our native language and in English, the most common tourism questions is very useful during customer service at the airport. The traveler always hopes to receive enough information about airports, places of interest related to their the destination, weather, transportation, itineraries, tourist information points, restaurants, etc. Therefore, it is necessary to manage a specific vocabulary of the places that the passenger wishes to visit.
     p.mb-5 Estar preparados para responder, tanto en la lengua nativa como en inglés, a las preguntas más habituales de turismo es de gran utilidad durante la atención al cliente en el aeropuerto. El viajero siempre espera poder recibir suficiente información sobre los aeropuertos, sitios de interés en el destino, clima, transporte, itinerarios, puntos de información turística, restaurantes, etc. Se debe, por lo tanto, tener manejo de un vocabulario específico de los lugares que el pasajero desea visitar. 
-    h3 A. <i>The verb “CAN”</i> // El Verbo “PODER”
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+    h3 A. The verb “CAN” / El Verbo “PODER”
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 Let´s explore the use of the verb CAN for giving information on tourist destinations and activities. 
     p.mb-5 Ahora, se explorará el uso del verbo PODER para dar información sobre destinos y actividades turísticas.
     .row.mb-5.justify-content-center
@@ -381,16 +420,17 @@
                 h4 I. We us CAN for possible options (I have the option to do something)
                 p 
                   b <i>Example: </i> 
-                  |You can visit some museums and some art galleries when you visit London
+                  | <i>You can visit some museums and some art galleries when you visit London</i>
             tr
               th
                 h4 II. We use CAN for suggestions
                 p 
                   b <i>Example: </i> 
-                  |You can have lunch at one of the seafood restaurants near the beach.
+                  | <i>You can have lunch at one of the seafood restaurants near the beach.</i>
     p.mb-5 A continuación, se podrá explorar el uso del verbo “PODER” en diversas actividades en sitios turísticos de Colombia. 
-    .titulo-sexto.color-acento-contenido
-      h5.fw-normal The verb <b>“can”</b> – El verbo <b>“poder”</b>.
+    .titulo-sexto.color-secundario
+      h5.fw-normal 
+        spam.color-amarillo.p-2 The verb <b>“can”</b> – El verbo <b>“poder”</b>.
     .row.mb-4.justify-content-center
       .col-lg-6
         .tarjeta-destinos.p-3.d-flex.align-items-center
@@ -461,8 +501,8 @@
             p.mb-0 You 
               span.texto--3 can 
               | see some ruins in the Lost City.
-    h3 B. <i>Useful Verbs and other activities</i> // Verbos muy Utilizados y otras actividades
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+    h3 B. Useful verbs and other activities / Verbos muy utilizados y otras actividades
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 Here we have some verbs that are normally used to talk about activities tourists can do in different places.
     p.mb-5 Aquí hay algunos verbos utilizados normalmente para hablar de actividades que los turistas pueden hacer en diferentes lugares.
     .row.mb-5.justify-content-center
@@ -471,7 +511,7 @@
           img(src='@/assets/curso/img43.svg' alt='AvatarTop' style='height: 144px')
           .tarjeta.color-acento-contenido2.w-100
             .p-4
-              h4.text-center Useful Verbs 
+              h2.text-center Useful verbs 
               p • Enjoy 
                 br
                 |• Go on a sightseeing around 
@@ -500,41 +540,41 @@
           img(src='@/assets/curso/img44.svg' alt='AvatarTop')
           .tarjeta.color-secundario2.w-100
             .p-4
-              h2.text-center Other Activities
-              p • You can ride a giant Ferris wheel. 
+              h2.text-center Other activities
+              p • You <b>can ride</b> a giant Ferris wheel. 
                 br
-                |• You can try local food and drink. 
+                |• You <b>can try</b> local food and drink. 
                 br
-                |• You can take photos 
+                |• You <b>can take</b> photos 
                 br
-                |• You can explore a science and technology museum. 
+                |• You <b>can explore</b> a science and technology museum. 
                 br
-                |• You can relax at the beach 
+                |• You <b>can relax</b> at the beach 
                 br
-                |• You can go to the zoo 
+                |• You <b>can go to</b> the zoo 
                 br
-                |• You can have picnic 
+                |• You <b>can have</b> picnic 
                 br
-                |• You can enjoy street art in the big city
+                |• You <b>can enjoy</b> street art in the big city
                 br
-                |• You can go on a sightseeing around London
+                |• You <b>can go on a sightseeing</b> around London
                 br
-                |• You can go jogging around the park
+                |• You <b>can go jogging</b> around the park
     #t_2_3.titulo-segundo
-      h2 2.3 <i>Sales process management</i> 
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+      h2 2.3 Sales process management / Manejo del proceso de ventas  
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 The sales process is important within the value chain in providing a high quality service. For this reason, it is of great importance to have knowledge of the English language, in order to understand the client's needs. Without the command of English, we can make mistakes during this first point of contact with the traveler.
     p.mb-5 El proceso de venta es importante dentro de la cadena de valor en la prestación de un servicio de alta calidad. Por tal razón, es de gran relevancia tener conocimiento en lengua inglesa para entender y comprender la necesidad del cliente. Sin el dominio del inglés, se pueden cometer errores en este primer punto de contacto con el viajero.
-    h3 A. <i>Selling a Package Holiday – Part I</i> // Vendiendo un Paquete Turístico – Parte I
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+    h3 A. Selling a package holiday – Part I / Vendiendo un paquete turístico – Parte I
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 Here is the first part of a conversation between a travel agent and a customer booking a package holiday. Use a dictionary to look up any words you do not know. 
     p.mb-5 Aquí está la primera parte de una conversación entre un agente de viajes y un cliente que reserva un paquete de vacaciones. Se sugiere usar un diccionario para buscar cualquier palabra que no se conozca.
     .row.align-items-center 
       .col-lg-5: img(src="@/assets/curso/img45.svg")
       .col-lg-7 
-        .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
-          p.mb-0 Package Holiday to Santa Marta – Part I
-        p.mb-5 Paquete Turístico a Santa Marta – Parte I
+        .tarjeta-idioma.px-5.py-4.mb-4
+          p.mb-0 Package holiday to Santa Marta – Part I
+        p.mb-5 Paquete turístico a Santa Marta – Parte I
     .cuadro-dialogos.p-5.mb-5
       .row.justify-content-center
         .col-lg-2.justify-content-end
@@ -544,40 +584,40 @@
 
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Travel Agent:
+          h5.texto--4.mb-2 Travel agent:
         .col-lg-6
-          p.texto--4.mb-2 Any specific destination in mind?
+          p.texto--4.mb-2 any specific destination in mind?
 
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2.fst-italic The family wants a place near the sea and where the weather is good. 
+          p.texto--5.mb-2.fst-italic the family wants a place near the sea and where the weather is good. 
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Travel Agent:
+          h5.texto--4.mb-2 Travel agent:
         .col-lg-6
           p.texto--4.mb-2 O.K. Do you have any specific dates for your holiday?
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2.fst-italic Not really. We have a lot of flexibility.
+          p.texto--5.mb-2.fst-italic not really. We have a lot of flexibility.
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Travel Agent:
+          h5.texto--4.mb-2 Travel agent:
         .col-lg-6
-          p.texto--4.mb-2 Well, we have some last minute package deals to Santa Marta, Cartagena and San Andres Island.
+          p.texto--4.mb-2 well, we have some last minute package deals to Santa Marta, Cartagena and San Andres Island.
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2.fst-italic Any of those would be O.K. with us.
+          p.texto--5.mb-2.fst-italic any of those would be O.K. with us.
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Travel Agent:
+          h5.texto--4.mb-2 Travel agent:
         .col-lg-6
-          p.texto--4.mb-2 Let me tell you about the accommodation options in each. You could stay in a hotel, a self-catering apartment or a B&B.
+          p.texto--4.mb-2 let me tell you about the accommodation options in each. You could stay in a hotel, a self-catering apartment or a B&B.
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
@@ -585,101 +625,101 @@
           p.texto--5.mb-2.fst-italic I am sure the family would like the self-catering apartment option.
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Travel Agent:
+          h5.texto--4.mb-2 Travel agent:
         .col-lg-6
-          p.texto--4.mb-2 At the moment we have that option in resorts in Santa Marta and Cartagena but not in San Andres Island. 
+          p.texto--4.mb-2 at the moment we have that option in resorts in Santa Marta and Cartagena but not in San Andres Island. 
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2.fst-italic How does the cost compare in Santa Marta and Cartagena?
+          p.texto--5.mb-2.fst-italic how does the cost compare in Santa Marta and Cartagena?
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Travel Agent:
+          h5.texto--4.mb-2 Travel agent:
         .col-lg-6
-          p.texto--4.mb-2 They’re pretty similar, but the cost of living is a bit cheaper in Santa Marta than in Cartagena.
+          p.texto--4.mb-2 they’re pretty similar, but the cost of living is a bit cheaper in Santa Marta than in Cartagena.
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2.fst-italic So tell me about the Santa Marta packages then. 
+          p.texto--5.mb-2.fst-italic so tell me about the Santa Marta packages then. 
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Travel Agent:
+          h5.texto--4.mb-2 Travel agent:
         .col-lg-6
-          p.texto--4.mb-2 Well, we have a self-catering apartment in the popular resort of Irotama in Playa Bello Horizonte, where there are some beautiful beaches.
+          p.texto--4.mb-2 well, we have a self-catering apartment in the popular resort of Irotama in Playa Bello Horizonte, where there are some beautiful beaches.
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2.fst-italic How would we get there from the airport?
+          p.texto--5.mb-2.fst-italic how would we get there from the airport?
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Travel Agent:
+          h5.texto--4.mb-2 Travel agent:
         .col-lg-6
-          p.texto--4.mb-2 It’s about 1 hour from Simon Bolivar International Airport, but there would be a complimentary transportation service directly to your resort.
+          p.texto--4.mb-2 it’s about 1 hour from Simon Bolivar International Airport, but there would be a complimentary transportation service directly to your resort.
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2.fst-italic That sounds fantastic! I’ll book it! 
+          p.texto--5.mb-2.fst-italic that sounds fantastic! I’ll book it! 
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Travel Agent:
+          h5.texto--4.mb-2 Travel agent:
         .col-lg-6
           p.texto--4.mb-2 O.K. I just need a few personal details from you…
-    h3 B. <i>Selling a Package Holiday – Part II</i> // Vendiendo un Paquete Turístico – Parte II
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+    h3 B. Selling a package holiday – Part II / Vendiendo un paquete turístico – Parte II
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 Here is the second part of the conversation between a travel agent and a customer booking a package holiday. Use a dictionary to look up any words you do not know. 
     p.mb-5 Aquí está la segunda parte de la conversación entre un agente de viajes y un cliente que reserva un paquete de vacaciones. Se sugiere usar un diccionario para buscar cualquier palabra que no se conozca.
     .row.align-items-center 
       .col-lg-5: img(src="@/assets/curso/img46.svg")
       .col-lg-7 
-        .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
-          p.mb-0 Package Holiday to Santa Marta – Part II
-        p.mb-5 Paquete Turístico a Santa Marta – Parte II
+        .tarjeta-idioma.px-5.py-4.mb-4
+          p.mb-0 Package holiday to Santa Marta – Part II
+        p.mb-5 Paquete turístico a Santa Marta – Parte II
     .cuadro-dialogos.p-5.mb-5
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Travel Agent:
+          h5.texto--4.mb-2 Travel agent:
         .col-lg-6
-          p.texto--4.mb-2 First, I need the full names of all the people travelling, please.
+          p.texto--4.mb-2 first, I need the full names of all the people travelling, please.
 
       .row.justify-content-center
         .col-lg-2.justify-content-end 
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2.fst-italic My name is John Pawson. My wife´s name is Gisela Pawson. My two daughters are Nathania Pawson and Taliana Pawson.
+          p.texto--5.mb-2.fst-italic my name is John Pawson. My wife´s name is Gisela Pawson. My two daughters are Nathania Pawson and Taliana Pawson.
  
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Travel Agent:
+          h5.texto--4.mb-2 Travel agent:
         .col-lg-6
-          p.texto--4.mb-2 Can I also have the dates of birth of you all, please?
+          p.texto--4.mb-2 can I also have the dates of birth of you all, please?
 
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2.fst-italic My date of birth is 7th June 1977; Gisela’s is 23 November 1980; Nathania´s is 10th October 2009 and Taliana´s 18th March 2012.
+          p.texto--5.mb-2.fst-italic my date of birth is 7th June 1977; Gisela’s is 23 November 1980; Nathania´s is 10th October 2009 and Taliana´s 18th March 2012.
 
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Travel Agent:
+          h5.texto--4.mb-2 Travel agent:
         .col-lg-6
-          p.texto--4.mb-2 Now your passport numbers and expiry dates.
+          p.texto--4.mb-2 now your passport numbers and expiry dates.
 
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2.fst-italic Oh! I’m afraid I do not have that information at the moment.
+          p.texto--5.mb-2.fst-italic oh! I’m afraid I do not have that information at the moment.
 
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Travel Agent:
+          h5.texto--4.mb-2 Travel agent:
         .col-lg-6
-          p.texto--4.mb-2 Not a problem. You can either email them to me or send them via WhatsApp later.
+          p.texto--4.mb-2 not a problem. You can either email them to me or send them via WhatsApp later.
 
       .row.justify-content-center
         .col-lg-2.justify-content-end
@@ -689,33 +729,33 @@
  
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Travel Agent:
+          h5.texto--4.mb-2 Travel agent:
         .col-lg-6
-          p.texto--4.mb-2 So your holiday is a one-week, all-inclusive package to the Irotama Resort.
+          p.texto--4.mb-2 so your holiday is a one-week, all-inclusive package to the Irotama Resort.
 
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2.fst-italic What’s included in the package?
+          p.texto--5.mb-2.fst-italic what’s included in the package?
  
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Travel Agent:
+          h5.texto--4.mb-2 Travel agent:
         .col-lg-6
-          p.texto--4.mb-2 Return flights; transfers to and from Simon Bolivar Airport; a self-catering apartment, which will be cleaned twice a week and use of a communal swimming pool.
+          p.texto--4.mb-2 return flights; transfers to and from Simon Bolivar Airport; a self-catering apartment, which will be cleaned twice a week and use of a communal swimming pool.
 
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2.fst-italic Fantastic! What about the local amenities?
+          p.texto--5.mb-2.fst-italic fantastic! What about the local amenities?
 
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Travel Agent:
+          h5.texto--4.mb-2 Travel agent:
         .col-lg-6
-          p.texto--4.mb-2 There is a variety of shops, bars and restaurants and plenty of activities like diving, market trips and excursions to Tayrona National Park and other sightseeing trips.
+          p.texto--4.mb-2 there is a variety of shops, bars and restaurants and plenty of activities like diving, market trips and excursions to Tayrona National Park and other sightseeing trips.
 
       .row.justify-content-center
         .col-lg-2.justify-content-end
@@ -725,17 +765,17 @@
 
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Travel Agent:
+          h5.texto--4.mb-2 Travel agent:
         .col-lg-6
-          p.texto--4.mb-2 So, I’ll need a 50% deposit now and the balance at least 14 days before the holiday date.
+          p.texto--4.mb-2 so, I’ll need a 50% deposit now and the balance at least 14 days before the holiday date.
 
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
           p.texto--5.mb-2.fst-italic OK. Here’s my credit card.
-    h3 C. <i>Useful Phrases</i> // Expresiones Comunes
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+    h3 C. Useful phrases / Expresiones comunes
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 Let´s explore some vocabulary and phrases connected with selling a package holiday. 
     p.mb-5 Ahora se explorarán algunos términos y expresiones relacionados con la venta de un paquete turístico.
     .row.mb-5
@@ -747,28 +787,28 @@
             .p-4
               h2 Parte I
               p 
-                b A place near the sea // 
+                b A place near the sea / 
                 | Un lugar cerca al mar
                 br
-                b Good weather // 
+                b Good weather / 
                 |Buen clima
                 br
-                b Last minute package deals //  
+                b Last minute package deals /  
                 | Ofertas de paquetes de última hora
                 br
-                b Accommodation options // 
+                b Accommodation options / 
                 |Opciones de alojamiento
                 br
-                b Stay in a hotel // 
+                b Stay in a hotel / 
                 |Hospedarse en un hotel
                 br
-                b Stay in a self-catering apartment // 
+                b Stay in a self-catering apartment / 
                 |Hospedarse en un apartamento con cocina
                 br
-                b Stay in a B&B // 
-                |Hospedarse en un alojamiento B&B  <i>(Bed and Breakfast</i> //Cama y Desayuno)
+                b Stay in a B&B / 
+                |Hospedarse en un alojamiento B&B  <i>(Bed and Breakfast</i> /Cama y Desayuno)
                 br
-                b complimentary transportation service // 
+                b Complimentary transportation service / 
                 |Transporte de cortesía.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar.hover-transform
@@ -778,38 +818,38 @@
             .p-4
               h2 Parte II
               p 
-                b A one-week, all-inclusive package // 
+                b A one-week, all-inclusive package / 
                 |Un paquete de una semana todo incluido
                 br
-                b Return flights // 
+                b Return flights / 
                 |Tiquetes ida y vuelta 
                 br
-                b Transfers to and from // 
+                b Transfers to and from / 
                 |Traslados desde y hacia
                 br
-                b Communal swimming pool // 
+                b Communal swimming pool / 
                 |Piscina comunitaria 
                 br
-                b Local amenities // 
+                b Local amenities / 
                 |Servicios locales
                 br
-                b A 50% deposit // 
+                b A 50% deposit / 
                 |Un depósito del 50%
                 br
-                b The balance // 
+                b The balance / 
                 |El saldo
     #t_2_4.titulo-segundo
-      h2 2.4 <i>Interpretation of information in the GDS system (Global Distribution System)</i> // Interpretación de la información en el sistema GDS <i>(Global Distribution System)</i>
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+      h2 2.4 Interpretation of information in the GDS system (Global Distribution System) / Interpretación de la información en el sistema GDS <i>(Global Distribution System)</i>
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 The GDS or Global Distribution System for this industry has all its components and tools in English. It is important to become familiar with the terms it contains.
     p.mb-5 El GDS o Sistema de Distribución Global para esta industria tiene todos sus componentes y herramientas en lengua inglesa, por esto es importante familiarizarse con los términos que este contiene. 
     .row.mb-5.justify-content-center
       .col-lg-8: img(src="@/assets/curso/img48.svg")(data-aos="zoom-in-up" )
-    h3 A. <i>Coomands, Functions and Features in Amadeus Software</i> // Comandos, funciones y características del <i>software Amadeus</i>
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+    h3 A. Coomands, functions and features in amadeus software / Comandos, funciones y características del <i>software Amadeus</i>
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 The travel industry is full of acronyms and key terms. They play a fundamental role in the flight booking industry, therefore, they are very important to know. In this section, we will look at some of the ones used in Amadeus Platform both in English and Spanish. 
     p.mb-5 La industria de viajes está llena de siglas y términos clave que desempeñan un papel fundamental en la industria de la reserva de vuelos, por lo que es muy importante conocerlos. En esta sección, se verán algunos de los que se utilizan en la plataforma Amadeus, tanto en inglés como en español.
-    h3 <i>PNR SEARCH</i> // BÚSQUEDA DE PNR <i>(PASSENGER NAME RECORD)</i>
+    h3 PNR search / Búsqueda de PNR <i>(PASSENGER NAME RECORD)</i>
     ImagenInfografica.color-secundario.mb-5
 
       template(v-slot:imagen)
@@ -836,7 +876,7 @@
           |Herramientas
           br
           |Enlaces
-    h3 <i>RETRIEVE/MODIFY DROP-DOWN LIST</i> // MENÚ DESPLEGADO DE RECUPERAR Y MODIFICAR
+    h3 Retrieve /Modify drop-down list / Menú desplegado de recuperar y modificar
     .small-dots
       ImagenInfografica.color-secundario.mb-5
 
@@ -859,16 +899,22 @@
             b (Electronic Miscellaneous Document)
             br
             |Documentos electrónicos
-    h3 <i>FINDING FLIGHTS USING AN AVAILABILITY SEARCH</i> // BÚSQUEDA DE VUELOS MEDIANTE UNA BÚSQUEDA DE DISPONIBILIDAD
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
-      p.mb-0 An availability search displays a list of available or scheduled flights for up to 16 city pairs on given dates. You can define additional search options to help return the most accurate results for your search.
+    h3 Finding flights using an availability search / Búsqueda de vuelos mediante una búsqueda de disponibilidad 
+    .tarjeta-idioma.px-5.py-4.mb-4
+      p.mb-0 
+        b An availability search displays
+        | a list of available or scheduled flights for up to 16 city pairs on given dates. You can define additional search options to help return the most accurate results for your search.
         br
         br
-        |Tomado de Amadeus Selling Platform Connect – User Guide 18.1 - Publicado por Amadeus Learning Services (Distribution and IT) - Edition 5.0, p. 21.
-    p.mb-5 Una búsqueda por disponibilidad muestra una lista de vuelos disponibles o programados para hasta 16 pares de ciudades en unas fechas determinadas. Puede definir opciones de búsqueda adicionales para obtener unos resultados más precisos en la búsqueda.
+        |Tomado de 
+        b Amadeus Selling Platform Connect – User Guide 18.1 - Publicado por Amadeus Learning Services (Distribution and IT) - Edition 5.0, p. 21.
+    p.mb-5 
+      b Una búsqueda por disponibilidad 
+      | muestra una lista de vuelos disponibles o programados para hasta 16 pares de ciudades en unas fechas determinadas. Puede definir opciones de búsqueda adicionales para obtener unos resultados más precisos en la búsqueda.
       br
       br
-      |Tomado de Amadeus Selling Platform Connect – Guía de Usuario 17.1 - Publicado por Amadeus Global Learning Services (Distribution and IT) - Edition 2.1, p. 18.
+      |Tomado de 
+      b Amadeus Selling Platform Connect – Guía de Usuario 17.1 - Publicado por Amadeus Global Learning Services (Distribution and IT) - Edition 2.1, p. 18.
     .small-dots
       ImagenInfografica.color-secundario.mb-5
 
@@ -898,22 +944,22 @@
             |Horario
             br
             |Programación
-    h3 <i>FLIGHTS AVAILABILITY</i> // DISPONIBILIDAD DE VUELOS
+    h3 Flights availability / Disponibilidad de vuelos 
     figure.mb-5 
       img(src='@/assets/curso/img52.jpg', alt='Texto que describa la imagen')
     figure.mb-5
       img(src='@/assets/curso/img53.svg', alt='Texto que describa la imagen')
-    h3 <i>FLIGHTS AVAILABILITY</i> // DISPONIBILIDAD DE VUELOS
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+    h3 Finding flights using a timetable search / Búsqueda de vuelos mediante una búsqueda de programación
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 According to Amadeus Selling Platform Connect – User Guide -Edition 5.0 (2015, p.25), “<b>a timetable search</b> returns a list of flights and airlines for a specific origin and destination on a given date. The results show a list of flights for seven days from the date specified in the search. For each day, a green tick shows the availability or a red cross shows the unavailability of the flight corresponding to that day.”
     p.mb-5 De acuerdo con el manual de <i>Amadeus Selling Platform Connect (2014)</i>. Guía de Usuario -Edition 2.1: “<b>una búsqueda por programación</b> devuelve una lista de vuelos y líneas aéreas para un origen y un destino específicos en una fecha determinada. En los resultados se muestra una lista de vuelos para siete días a partir de la fecha especificada en la búsqueda. Para cada uno de los días, una marca de color verde indica la disponibilidad, y una cruz de color rojo indica la no disponibilidad del vuelo para ese día”.
     figure.mb-5
       img(src='@/assets/curso/img54.jpg', alt='Texto que describa la imagen')
     figure.mb-5
       img(src='@/assets/curso/img55.svg', alt='Texto que describa la imagen')
-    h3 B. <i>Currency Exchange and Taxes Calculation</i> // Cambio de divisas y cálculo de impuestos
-    h3 <i>NAMES AND SYMBOLS FOR CURRENCIES AROUND THE WORLD</i> // NOMBRES Y SÍMBOLOS DE MONEDAS DEL MUNDO
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+    h3 B. Currency exchange and taxes calculation / Cambio de divisas y cálculo de impuestos
+    h3 Names and symbols for currencies around the world  / Nombres y símbolos de monedas del mundo 
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 Look at the chart below with some of the names and symbols for currencies around the world. Try to identify the country the currency belongs to. Practice the pronunciation with your instructor. 
     p.mb-5 A continuación, se puede observar una tabla con algunos de los nombres y símbolos de las monedas de todo el mundo. Intente identificar el país al que pertenece la moneda. Practica la pronunciación con tu instructor.
     .tabla.mb-5 
@@ -928,14 +974,14 @@
             tbody.text-center
               tr
                 td Argentina
-                td Argentine Peso
+                td Argentine peso
                 td $
                 td.fw-bold ARS
                 td Peso argentino
 
               tr
                 td Australia
-                td Australian Dollar
+                td Australian dollar
 
                 td $
 
@@ -943,26 +989,26 @@
                 td Dólar australiano
               tr
                 td Brazil
-                td Brazilian Real
+                td Brazilian real
                 td R$
                 td.fw-bold BRL
                 td Real brasileño
               tr
                 td Canada
-                td Canadian Dollar
+                td Canadian dollar
                 td $
                 td.fw-bold  CAD
                 td Dólar canadiense
 
               tr
                 td China
-                td China Yuan 
+                td China yuan 
                 td ¥
                 td.fw-bold CNY
                 td Yuan chino
               tr
                 td Colombia
-                td Colombian Peso
+                td Colombian peso
                 td $
                 td.fw-bold COP
                 td Peso colombiano
@@ -974,14 +1020,14 @@
                 td Euro
               tr
                 td Indonesia
-                td Indonesia Rupiah
+                td Indonesia rupiah
                 td Rp
                 td.fw-bold IDR
                 td Rupia indonesia
               tr
                 td India
 
-                td India Rupiah
+                td India rupiah
 
                 td ₹
                 td.fw-bold INR
@@ -989,7 +1035,7 @@
 
               tr
                 td Israel
-                td Israel Shekel
+                td Israel shekel
 
                 td ₪
 
@@ -998,7 +1044,7 @@
 
               tr
                 td Japan
-                td Japan Yen
+                td Japan yen
 
                 td ¥
                 td.fw-bold JPY
@@ -1006,7 +1052,7 @@
 
               tr
                 td Malaysia
-                td Malaysia Ringgit
+                td Malaysia ringgit
 
                 td RM
                 td.fw-bold MYR
@@ -1015,7 +1061,7 @@
 
               tr
                 td Mexico
-                td Mexico Peso
+                td Mexico peso
 
                 td $
                 td.fw-bold MXN
@@ -1024,7 +1070,7 @@
               tr
                 td New Zealand
 
-                td New Zealand Dollar
+                td New Zealand dollar
 
                 td $
                 td.fw-bold NZD
@@ -1032,7 +1078,7 @@
 
               tr
                 td Norway
-                td Norwegian Krone
+                td Norwegian krone
 
                 td kr
                 td.fw-bold NOK
@@ -1041,7 +1087,7 @@
               tr
                 td Russia
 
-                td Russian Ruble
+                td Russian ruble
 
                 td ₽
                 td.fw-bold RUB
@@ -1050,7 +1096,7 @@
               tr
                 td Sweden
 
-                td Sweden Krona
+                td Sweden krona
 
                 td kr
                 td.fw-bold SEK
@@ -1058,7 +1104,7 @@
 
               tr
                 td Switzerland
-                td Switzerland Franc
+                td Switzerland franc
 
                 td SFr
                 td.fw-bold CHF
@@ -1067,7 +1113,7 @@
               tr
                 td Thailand
 
-                td Thailand Baht
+                td Thailand baht
 
                 td ฿
                 td.fw-bold THB
@@ -1075,7 +1121,7 @@
               tr
                 td Turkey
 
-                td Turkish Lira
+                td Turkish lira
 
                 td ₺
                 td.fw-bold Try
@@ -1084,7 +1130,7 @@
               tr
                 td United Kingdom
 
-                td Pounds Sterling
+                td Pounds sterling
 
                 td £
 
@@ -1093,10 +1139,11 @@
 
               tr
                 td United States
-                td US Dollar
+                td US dollar
                 td $
                 td.fw-bold USD
                 td Dólar americano
+    h3 Calculate and convert  / Calcula y convierte 
     .small-dots
       ImagenInfografica.color-secundario.mb-5
         template(v-slot:imagen)
@@ -1116,7 +1163,7 @@
             |Información acerca de los Impuestos
             br
             |Convertidor Horario
-    h3 <i>TAX INFORMATION</i> // INFORMACIÓN SOBRE LOS IMPUESTOS
+    h3 Tax information / Información sobre los impuestos 
     figure.mb-5
       img(src='@/assets/curso/img57.jpg', alt='Texto que describa la imagen')
     h4.mb-5 Información sobre los impuestos
@@ -1124,13 +1171,14 @@
       .col-lg-8
         .cajon.color-acento-contenido.color-acento-contenido3.p-4.mb-4
           .h5 Para tu información:
-          p Para ver el sobrecargo de combustible, llene solamente el campo que dice país y deje en blanco donde dice código del impuesto.
+          p para ver el sobrecargo de combustible, llene solamente el campo que dice país y deje en blanco donde dice código del impuesto.
             br
-            b Impuestos y cargos adicionales del destino Cargos por el servicio a pasajeros
+            b Impuestos y cargos adicionales del destino cargos por el servicio a pasajeros
             br
             b Ciudad / Aeropuerto
             br
-            b País Código de impuesto
+            b País código de impuesto
+    h3 Pricing  / Cotización o tarificación 
     .small-dots2.red-dots
       ImagenInfografica.color-secundario.mb-5
         template(v-slot:imagen)
@@ -1213,7 +1261,7 @@
           .h5.mb-2.text-center.mb-0 Familia de tarifas
         .tarjeta.color-secundario.px-3.py-3(x="11.5%" y="88.5%")
           .h5.mb-2.text-center.mb-0 Adulto
-    h3 <i>FARE NOTE (FRN)</i> // NOTA DE CONDICIONES DE LA TARIFA
+    h3 <i>FARE NOTE (FRN)</i> / Nota de condiciones de la tarifa 
     .row.mb-5.justify-content-center
       .col-lg-9
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
@@ -1226,9 +1274,9 @@
               br
               br
               | El manual Amadeus Altéa Reservation Desktop Web – User Guide - Edition 3.3 (2016, p. 151) explica que 
-              b.texto--3 “las notas de tarifa contienen las condiciones y regulaciones aplicables a una tarifa específica”.Stand so tall that t
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
-      p.mb-0 Have a look at the following Fare Note for that itinerary. Make a guided reading of each one of the conditions you can see in it. For guidance, please, refer to the spanish version underneath the following screen. 
+              b.texto--3 “las notas de tarifa contienen las condiciones y regulaciones aplicables a una tarifa específica”.
+    .tarjeta-idioma.px-5.py-4.mb-4
+      p.mb-0 Have a look at the following fare note for that itinerary. Make a guided reading of each one of the conditions you can see in it. For guidance, please, refer to the spanish version underneath the following screen. 
     p.mb-5 Se sugiere dar un vistazo a la siguiente nota de tarifa para ese itinerario y hacer una lectura guiada de cada una de las condiciones que se pueden ver en ella. A manera de apoyo, consultar la versión en español debajo del siguiente pantallazo.
     .small-dots
       ImagenInfografica.color-secundario.mb-5
@@ -1265,8 +1313,8 @@
             |las exenciones por enfermedad/muerte deben ser confirmadas con un certificado médico de muerte válido. 
             br
             |nota-ver descuento para niños/bebés en las reglas de tarifa para determinar si es aplicable.
-    h3 C. <i>Most Commonly Used Terms</i> // Términos más utilizados
-    h4 <i>PART 1</i> // PARTE 1
+    h3 C. Most commonly used terms / Términos más utilizados
+    h4 Part 1 / Parte 1
     .color-primario3.mb-5.p-5
       .row.align-items-end
         .col-lg-4: img(src="@/assets/curso/img62.jpg")
@@ -1274,174 +1322,174 @@
           p 
             
             b Baggage 
-            |// Equipaje
+            |/ Equipaje
             br
             b PTEC (Pet in Cabin) 
-            |// Mascota en cabina
+            |/ Mascota en cabina
             br
             b AVIH (Animal in Hold) 
-            |// Animal en bodega
+            |/ Animal en bodega
             br
-            b Cabine Baggage 
-            |// Equipaje de cabina
+            b Cabine baggage 
+            |/ Equipaje de cabina
             br
             b BGSC (Baggage Service Compensation) 
-            |// Compensación por servicio de equipaje
+            |/ Compensación por servicio de equipaje
             br
             b Compensation 
-            |// Compensación 
+            |/ Compensación 
             br
             b Oversize 
-            |// Sobredimensionado
+            |/ Sobredimensionado
             br
-            b Sports Equipment 
-            |// Equipo/Implementos deportivos
+            b Sports equipment 
+            |/ Equipo/Implementos deportivos
     .color-primario3.mb-5.p-5
       .row.align-items-end
         .col-lg-4: img(src="@/assets/curso/img63.jpg")
         .col-lg-8
           p 
             br
-            b Prepaid Overweight 
-            |// Pagar por anticipado exceso de peso
+            b Prepaid overweight 
+            |/ Pagar por anticipado exceso de peso
             br
             b SJDT_SJO departure TAX 
-            |// Impuesto de salida
+            |/ Impuesto de salida
             br
             b PENF penalty fee 
-            |// Pago por penalidad 
+            |/ Pago por penalidad 
             br
             b RSVT Residual value 
-            |// Valor residual
+            |/ Valor residual
             br
             b CTSC Customer service 
-            |// Atención al cliente
-    h4 <i>PART 2</i> // PARTE 2
+            |/ Atención al cliente
+    h4 Part 2 / Parte 2
     .color-secundario3.mb-5.p-5
       .row.align-items-end
         .col-lg-4: img(src="@/assets/curso/img63.jpg")
         .col-lg-8
           p 
             b FQTR Redemption 
-            |// Redención o canjeo de millas o puntos 
+            |/ Redención o canjeo de millas o puntos 
             br
             b FQTU Upgrade 
-            |// Ascenso en la categoría de viajero frecuente
+            |/ Ascenso en la categoría de viajero frecuente
             br
             b FQTV Accrual 
-            |// Programa de acumulación de millas de viajero frecuente
+            |/ Programa de acumulación de millas de viajero frecuente
     .color-secundario3.mb-5.p-5
       .row.align-items-end
         .col-lg-4: img(src="@/assets/curso/img64.jpg")
         .col-lg-8
           p 
             b Meals 
-            |// Comidas
+            |/ Comidas
             br
             b Medical Case 
-            |// Caso médico
+            |/ Caso médico
             br
             b TRSA 
-            |// Tarjeta de turismo para viajeros a la Isla de San Andrés
+            |/ Tarjeta de turismo para viajeros a la Isla de San Andrés
             br
             b DEPO Deposit Down Payment 
-            |// Pago de depósito
-    h4 <i>PART 3</i> // PARTE 3      
+            |/ Pago de depósito
+    h4 PART 3 / PARTE 3      
     .color-primario3.mb-5.p-5
       .row.align-items-end
         .col-lg-4: img(src="@/assets/curso/img66.jpg")
         .col-lg-8
           p 
-            b Passenger Assistance 
-            | // Asistencia al pasajero
+            b Passenger assistance 
+            | / Asistencia al pasajero
             br
             b Wheelchair 
-            | // Silla de ruedas
+            | / Silla de ruedas
             br
             b CKIN check in 
-            | // Información de registro
+            | / Información de registro
             br
             b Upgrade 
-            | // Mejora (subir de categoría)
+            | / Mejora (subir de categoría)
             br
             b Unaccompanied minor 
-            | // Menor no acompañado
+            | / Menor no acompañado
     .color-primario3.mb-5.p-5
       .row.align-items-end
         .col-lg-4: img(src="@/assets/curso/img67.jpg")
         .col-lg-8
           p 
             br
-            b Passenger Información 
-            | // Información (detalles) del pasajero
+            b Passenger información 
+            | / Información (detalles) del pasajero
             br
             b API (Advanced Passenger Information) 
-            | // Información avanzada del pasajero
+            | / Información avanzada del pasajero
             br
-            b Emergency Contact 
-            | // Contacto en caso de emergencia
+            b Emergency contact 
+            | / Contacto en caso de emergencia
             br
-            b Form of Identification 
-            | // Forma de identificación
+            b Form of identification 
+            | / Forma de identificación
             br
             b Child 
-            | // Niño
+            | / Niño
             br
             b Infant 
-            | // Bebé
+            | / Bebé
             br
             b Seaman 
-            | // Marinero
+            | / Marinero
             br
-            b Reason for Travel 
-            | // Motivo del viaje
+            b Reason for travel 
+            | / Motivo del viaje
             br
             b Language 
-            | // Idioma
+            | / Idioma
             br
-            b PENC – Name Change 
-            | // Cambio o actualización del nombre de un pasajero
+            b PENC – Name change 
+            | / Cambio o actualización del nombre de un pasajero
             br
             b Seats 
-            | // Asientos
+            | / Asientos
             br
-            b Seat Map 
-            | // Mapa de asientos
+            b Seat map 
+            | / Mapa de asientos
             br
-            b Seat Preference 
-            | // Preferencia de asientos
+            b Seat preference 
+            | / Preferencia de asientos
             br
             b Bassinet 
-            | // Cuna
+            | / Cuna
             br
-            b Extra Seat 
-            | // Asiento adicional
+            b Extra seat 
+            | / Asiento adicional
             br
-            b ATO (Airport Ticket Office) Reserved Seat Chargeable 
-            | // Asiento reservado con cargo en la oficina de tiquetes del aeropuerto
+            b ATO (Airport Ticket Office) reserved seat chargeable 
+            | / Asiento reservado con cargo en la oficina de tiquetes del aeropuerto
             br
-            b Empty Seat (EMST) 
-            | // Asiento vacío
-    h4 <i>PART 4</i> // PARTE 4
+            b Empty seat (EMST) 
+            | / Asiento vacío
+    h4 Part 4 / Parte 4
     .color-secundario3.mb-5.p-5
       .row.align-items-end
         .col-lg-4: img(src="@/assets/curso/img68.jpg")
         .col-lg-8
           p 
-            b EMER Pax Flying On Emergency 
-            |// Pasajero volando de emergencia
+            b EMER pax flying on emergency 
+            |/ Pasajero volando de emergencia
             br
-            b SPAX Influential Passengers 
-            |// Pasajeros de alto valor
+            b SPAX influential passengers 
+            |/ Pasajeros de alto valor
             br
-            b MEDI Pax Flying With Medical Limitations 
-            |// Pasajero volando con limitaciones médicas
+            b MEDI pax flying with medical limitations 
+            |/ Pasajero volando con limitaciones médicas
             br
             b SPEM special meal on board 
-            |// Comida especial a bordo
+            |/ Comida especial a bordo
             br
-            b GRUP Pax Flying In Group 
-            |// Pasajero viajando en grupo
+            b GRUP pax flying in group 
+            |/ Pasajero viajando en grupo
 
 
 
@@ -1474,7 +1522,7 @@ export default {
       },
 
       {
-        titulo: 'Package Holiday: ',
+        titulo: 'Package holiday: ',
         texto:
           'a holiday where everything is included – the transport, hotel, etc.',
         imagen: require('@/assets/curso/img26.jpg'),
@@ -1508,7 +1556,7 @@ export default {
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'Travel Agency: ',
+        titulo: 'Travel agency: ',
         texto: 'a business that helps people to plan holidays',
         imagen: require('@/assets/curso/img31.jpg'),
         // leyendaImagen: 'Leyenda de la imagen',
@@ -1562,4 +1610,6 @@ export default {
   background-color: #C5B5F8
 .color-acento-contenido3
   background-color: #E2DAFC
+.color-amarillo
+  background-color: #FFDC72
 </style>

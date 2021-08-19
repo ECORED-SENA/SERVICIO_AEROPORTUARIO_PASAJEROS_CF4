@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span
           i.fas.fa-info
-      h1 Introducción
+      h1 Introduction / Introducción
     .row  
       .col-lg-7(data-aos="fade-left")
         .tarjeta-idioma.p-5.mb-4

@@ -16,7 +16,7 @@ export default {
       {
         nombreRuta: 'introduccion',
         icono: 'fas fa-info',
-        titulo: 'Introducción',
+        titulo: 'Introduction / Introducción',
         desarrolloContenidos: true,
       },
       {
@@ -24,27 +24,27 @@ export default {
         icono: 'far fa-file-alt',
         numero: '1',
         titulo:
-          'Recognizing traveler´s needs // Reconocimiento de las necesidades del viajero ',
+          'Recognizing traveler´s needs / Reconocimiento de las necesidades del viajero ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo:
-              'Getting personal information // Identificación de los datos personales ',
+              'Getting personal information / Identificación de los datos personales ',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo:
-              'PárrafosAssistance to traveler´s requests // Atención a los requerimientos ',
+              'PárrafosAssistance to traveler´s requests / Atención a los requerimientos ',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Information record // Registro de la información ',
+            titulo: 'Information record / Registro de la información ',
             hash: 't_1_3',
           },
         ],
@@ -53,34 +53,34 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Portfolio services // Servicios del portafolio',
+        titulo: 'Portfolio services / Servicios del portafolio',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
             titulo:
-              'Guidance on location and characteristics of the destination // Orientación sobre ubicación y características del destino ',
+              'Guidance on location and characteristics of the destination / Orientación sobre ubicación y características del destino ',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
             titulo:
-              'Information about tourist destinations // Información de destinos turísticos',
+              'Information about tourist destinations / Información de destinos turísticos',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Sales process management // Manejo del proceso de venta ',
+            titulo: 'Sales process management / Manejo del proceso de venta ',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
             titulo:
-              'Interpretation of information in the GDS system (Global Distribution System) // Interpretación de la información en el sistema GDS (Global Distribution System) ',
+              'Interpretation of information in the GDS system (Global Distribution System) / Interpretación de la información en el sistema GDS (Global Distribution System) ',
             hash: 't_2_4',
           },
         ],
@@ -123,17 +123,17 @@ export default {
   referencias: [
     {
       referencia:
-        'Amadeus S.A.S. (2014). Amadeus Selling Platform Connect – Guía de usuario. Edition 2.1. Amadeus Global Learning Services (Distribution and IT).',
+        'Amadeus S.A.S. (2014). <i>Amadeus Selling Platform Connect – Guía de usuario. Edition 2.1</i>. Amadeus Global Learning Services (Distribution and IT).',
       link: '',
     },
     {
       referencia:
-        'Amadeus S.A.S. (2015). Amadeus Selling Platform Connect – User Guide. Edición 5.0. Amadeus Learning Services.',
+        'Amadeus S.A.S. (2015). <i>Amadeus Selling Platform Connect – User Guide. Edición 5.0.</i> Amadeus Learning Services.',
       link: '',
     },
     {
       referencia:
-        'Amadeus S.A.S. (2016). Amadeus Altéa Reservation Desktop Web – User Guide. Edition 3.3. Amadeus Learning Services.',
+        'Amadeus S.A.S. (2016). <i>Amadeus Altéa Reservation Desktop Web – User Guide. Edition 3.3.</i> Amadeus Learning Services.',
       link: '',
     },
     {
@@ -156,7 +156,7 @@ export default {
     {
       termino: 'Customer service',
       termHTML: '<i>Customer Service</i>',
-      significado: '',
+      significado: 'servicio al cliente',
     },
     {
       termino: 'Flight',
@@ -177,11 +177,6 @@ export default {
       termino: 'Package holiday',
       termHTML: '<i>Package holiday</i>',
       significado: 'paquete turístico',
-    },
-    {
-      termino: 'Passenger',
-      termHTML: '<i>Passenger</i>',
-      significado: 'pasajero',
     },
     {
       termino: 'Personal informtion',
@@ -222,19 +217,19 @@ export default {
   complementario: [
     {
       texto:
-        'Prodromou, L., Prodromou, P., Cowan, A., y Elliott, R. (s.f.). Flash on English For Tourism. ESP Series. ELI Publishing.',
+        'Prodromou, L., Prodromou, P., Cowan, A., y Elliott, R. (s.f.). <i>Flash on English For Tourism</i>. ESP Series. ELI Publishing.',
       tipo: 'Libro',
-      link: 'www.elionline.com',
+      link: 'http://www.elionline.com',
     },
     {
       texto:
-        'Dubicka, I., y O´Keeffe, M. (2003). English For International Tourism. Pre-intermediate Student´s Book. Pearson Education Limited.',
+        'Dubicka, I., y O´Keeffe, M. (2003). <i>English For International Tourism. Pre-intermediate Student´s Book</i>. Pearson Education Limited.',
       tipo: 'Libro',
-      link: 'www.longman.com',
+      link: 'http://www.longman.com',
     },
     {
       texto:
-        'Hernández, L. (2004). Curso Inglés aplicado al sector turístico. Mailxmail.com.',
+        'Hernández, L. (2004). <i>Curso Inglés aplicado al sector turístico</i>. Mailxmail.com.',
       tipo: 'Libro',
       link:
         'http://www.mailxmail.com/curso-ingles-aplicado-sector-turistico-2 ',
@@ -247,13 +242,13 @@ export default {
     {
       texto: 'Wordreference',
       tipo: 'Diccionario en línea',
-      link: 'www.wordreference.com ',
+      link: 'http://www.wordreference.com ',
     },
     {
       texto:
-        'Amadeus S.A.S. (2016). Amadeus Altéa Reservation Desktop Web – User Guide. Edition 3.3. Amadeus Learning Services.',
+        'Amadeus S.A.S. (2016). <i>Amadeus Altéa Reservation Desktop Web – User Guide. Edition</i> 3.3. Amadeus Learning Services.',
       tipo: 'Libro',
-      link: 'learning@amadeus.com',
+      link: 'http://learning@amadeus.com',
     },
     {
       texto: 'Amadeus Service Hub.',
@@ -264,7 +259,7 @@ export default {
     },
     {
       texto:
-        'Tourism Innovation Consulting. (2020). Amadeus Connect - Nivel Básico. [Video]. YouTube.',
+        'Tourism Innovation Consulting. (2020). <i>Amadeus Connect - Nivel Básico</i>. [Video]. YouTube.',
       tipo: 'Video de youtube sobre el uso de la plataforma Amadeus Connect',
       link:
         'https://www.youtube.com/playlist?list=PLD7plIsSZtvQeQGyPjLOXUL3NrVOcHMa8',
@@ -327,7 +322,13 @@ export default {
       },
       {
         nombre: 'Camilo Andres Bolaño Rey',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella ',
+        cargo: 'Soporte front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -338,7 +339,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Magdi Khalifah Gamboa',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

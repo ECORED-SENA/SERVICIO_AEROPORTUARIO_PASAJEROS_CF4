@@ -5,20 +5,20 @@
     .titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 <i>Recognizing traveler's needs</i> // Reconocimiento de las necesidades del viajero
+      h1 Recognizing traveler's needs / Reconocimiento de las necesidades del viajero
     .row.mb-5
       .col-lg-7
-        .tarjeta-idioma.px-5.py-4.fst-italic.mb-4 
+        .tarjeta-idioma.px-5.py-4.mb-4 
           p.mb-0 One of the most important characteristics that tourists value the most is being able to count on high-level technological services and have a clear and direct communication with the different tourist service providers such as the airline, the hotel, the travel agency or the tour company personnel. They expect to meet staff who understand their needs and tastes.
-        p Una de las características más importantes y que más valoran los turistas es la de poder contar con servicios tecnológicos de alto nivel y tener una comunicación clara y directa con los diferentes prestadores de servicios turístico como la compañía aérea, el hotel, la agencia de viajes o la empresa de tours. Ellos esperan contar con personal que entienda sus gustos y sus necesidades.
+        p Una de las características más importantes y que más valoran los turistas es la de poder contar con servicios tecnológicos de alto nivel y tener una comunicación clara y directa con los diferentes prestadores de servicios turístico como la compañía aérea, el hotel, la agencia de viajes o la empresa de <i>tours</i>. Ellos esperan contar con personal que entienda sus gustos y sus necesidades.
       .col-lg-5: img(src="@/assets/curso/img2.svg")
     #t_1_1.titulo-segundo
-      h2 1.1 <i>Getting personal information</i> // Identificación de los datos personales
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+      h2 1.1 Getting personal information / Identificación de los datos personales
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 In order to provide a quality and high-level service to English-speaking travelers, it is important to get their basic personal information first. 
     p.mb-5 Para poder brindar un servicio de calidad y de alto nivel con viajeros angloparlantes, es importante reconocer inicialmente su información básica personal. 
-    h3 A. <i>Questions to ask for the customer´s personal information</i> // Preguntas para solicitar la información personal al cliente. 
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+    h3 A. Questions to ask for the customer´s personal information / Preguntas para solicitar la información personal al cliente
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 Read and review the questions and formulas to request personal information from English-speaking travelers. 
     p.mb-5 Lee y revisa atentamente las preguntas y fórmulas usadas para solicitar la información personal a viajeros de habla inglesa.
     .row.mb-3
@@ -178,7 +178,7 @@
                   h4.mb-0 ¿Me podría dar el número de su tarjeta de crédito? 
                   p.mb-0 Por supuesto. 4654 7700 3582
       .col-lg-2: img(src="@/assets/curso/img4.svg").d-sm-none.d-xs-none.d-lg-block
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 *Note the standard convention of saying “plus” before an international number. For example, +57 is the international dialing code for Colombia; +1 is the international dialing code for Canada.
         br
         br
@@ -188,28 +188,30 @@
       |antes de un número internacional. Por ejemplo, +57 es el código de marcación internacional de Colombia; +1 es el código de marcación internacional de Canadá.
       br
       br
+      |**@ is pronounced /at/ in English.
+      br
       |**@ se pronuncia /at/ en inglés.
-    h3.mb-5 B. <i>Tourists Personal Information</i> // Información Personal de los Turistas. 
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+    h3.mb-5 B. Tourists personal information / Información personal de los turistas 
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 Here is a chart for you to explore more vocabulary related to a tourist personal information and plans. You can use a dictionary to look up the words you do not know.
     p.mb-5 Aquí hay una tabla para explorar más vocabulario y expresiones relacionadas con la información personal y los planes de un turista. Se puede consultar un diccionario para buscar las palabras desconocidas.
     SlyderB.mb-5(:datos="datosSlyder")
     #t_1_2.titulo-segundo
-      h2 1.2 <i>Assistance to traveler´s requests</i> // Atención a los requerimientos 
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+      h2 1.2 Assistance to traveler´s requests / Atención a los requerimientos 
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 It is important to understand what request the passenger has or what is the need that they want to be helped with. These requests range from information on specific tourist destinations, information for the purchase of a flight ticket, changes in air tickets or simply quotations and general information.
     p.mb-5 Es importante entender el requerimiento que tiene el pasajero o cuál es la necesidad que desea le ayuden a resolver, estas peticiones van desde información de destinos turísticos puntuales, la información para la compra de un tiquete de vuelo, cambios en tiquetes aéreos o simplemente cotizaciones e información general.
-    h3 A. <i>Communicative Functions</i> // Funciones Comunicativas
+    h3 A. Communicative functions / Funciones comunicativas
     .row.mb-5
       .col-lg-7
-        .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+        .tarjeta-idioma.px-5.py-4.mb-4
           p.mb-0 Let's see some of the most common communicative functions used in the interaction between a ticketing agent and a customer. 
         p A continuación, algunas de las funciones comunicativas más comunes presentes en la interacción entre el agente y el cliente.
       .col-lg-5: img(src="@/assets/curso/img9.jpg")(data-aos="slide-left")
     .row.mb-5
       .col-lg-7
         .tarjeta-nota.px-5.py-3
-          h4.mb-0.ms-5 Ticketing Agent = Agente de ventas de tiquetes
+          h4.mb-0.ms-5 Ticketing agent = Agente de ventas de tiquetes
             br
             |Customer = Cliente
     .row.mb-5.justify-content-center
@@ -220,9 +222,9 @@
               figure
                 img(src='@/assets/curso/img10.svg', alt='Texto que describa la imagen' style='width: 85px')
             .col-md-5.mb-4.mb-md-0
-              h4 (Ticketing Agent)
+              h4 (Ticketing agent)
               p.mb-0 
-                b <i>Greeting and Offering Service</i>
+                b <i>Greeting and offering service</i>
                 br
                 | <i>(Saludar y ofrecer servicio)</i>
           .row.justify-content-end
@@ -247,7 +249,7 @@
                 | <i>(Preguntando el valor del tiquete)</i>
           .row.justify-content-end
             .col-md-5.mb-4.mb-md-0
-              h4 (Ticketing Agent)
+              h4 (Ticketing agent)
               p.mb-0 
                 b <i>Asking what type of ticket </i>
                 br
@@ -260,7 +262,7 @@
               figure
                 img(src='@/assets/curso/img10.svg', alt='Texto que describa la imagen' style='width: 85px')
             .col-md-5.mb-4.mb-md-0
-              h4 (Ticketing Agent)
+              h4 (Ticketing agent)
               p.mb-0 
                 b <i>Telling the price of the ticket </i>
                 br
@@ -280,7 +282,7 @@
               figure
                 img(src='@/assets/curso/img10.svg', alt='Texto que describa la imagen' style='width: 85px')
             .col-md-5.mb-4.mb-md-0
-              h4 (Ticketing Agent)
+              h4 (Ticketing agent)
               p.mb-0 
                 b <i>Asking someone´s name</i>
                 br
@@ -300,7 +302,7 @@
               figure
                 img(src='@/assets/curso/img10.svg', alt='Texto que describa la imagen' style='width: 85px')
             .col-md-5.mb-4.mb-md-0
-              h4 (Ticketing Agent)
+              h4 (Ticketing agent)
               p.mb-0 
                 b <i>Asking about the payment method </i>
                 br
@@ -320,7 +322,7 @@
               figure
                 img(src='@/assets/curso/img10.svg', alt='Texto que describa la imagen' style='width: 85px')
             .col-md-5.mb-4.mb-md-0
-              h4 (Ticketing Agent)
+              h4 (Ticketing agent)
               p.mb-0 
                 b <i>Double-checking the booking information</i>
                 br
@@ -335,44 +337,44 @@
             .col-md-2
               figure
                 img(src='@/assets/curso/img11.svg', alt='Texto que describa la imagen' style='width: 85px')
-    h3 B. <i>Structures used during flight reservation conversations</i> // Estructuras usadas para reservar un vuelo    
+    h3 B. Structures used during flight reservation conversations / Estructuras usadas para reservar un vuelo    
     .row.mb-5
       .col-lg-7
-        .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+        .tarjeta-idioma.px-5.py-4.mb-4
           p.mb-0 Let's now examine some of the structures used for the above communicative functions during a conversation.
         p Ahora, se examinarán algunas de las estructuras usadas para las funciones comunicativas, detalladas anteriormente, durante una conversación.
       .col-lg-5: img(src="@/assets/curso/img12.jpg")(data-aos="slide-left")
-    h3.fst-italic.mb-5 COMMUNICATIVE FUNCTIONS // FUNCIONES COMUNICATIVAS
+    h3.mb-5 Communicative functions / Funciones comunicativas 
       br
-      |(Making Flight Reservations // Haciendo reservas de vuelo)  
+      |(Making Flight Reservations / Haciendo reservas de vuelo)  
     .row.mb-5
       .col-lg-8
-        h4.texto--2 Greeting and Offering Service
+        h4.texto--2 Greeting and offering service
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta.cuadro-listados--1
               span 1
-            | SENA Airlines, Good Morning, May I help you?
+            | SENA airlines, good morning, may i help you?
           li 
             .lista-ol--cuadro__vineta.cuadro-listados--1
               span 2
-            | SENA Airlines, Good Afternoon, May I help you?
+            | SENA airlines, good afternoon, may i help you?
           li 
             .lista-ol--cuadro__vineta.cuadro-listados--1
               span 3
-            | SENA Airlines, Good Evening, May I help you?
+            | SENA airlines, good evening, may i help you?
           li 
             .lista-ol--cuadro__vineta.cuadro-listados--1
               span 4
-            | SENA Airlines, Good Morning, Can I help you?
+            | SENA airlines, good morning, can i help you?
           li 
             .lista-ol--cuadro__vineta.cuadro-listados--1
               span 5
-            | SENA Airlines, Good Morning, How May I help you?
+            | SENA airlines, good morning, how may i help you?
           li 
             .lista-ol--cuadro__vineta.cuadro-listados--1
               span 6
-            | SENA Airlines, Good afternoon, How can I help you?
+            | SENA airlines, good afternoon, how can i help you?
           li.ps-4.mt-4
             ol.lista-ol--cuadro
               li  
@@ -380,15 +382,15 @@
               li 
                 .lista-ol--cuadro__vineta.cuadro-listados--3
                   span 1
-                | Do you have any flights to San Andres Island next Friday morning?
+                | Do you have any flights to San Andres Island next friday morning?
               li 
                 .lista-ol--cuadro__vineta.cuadro-listados--3
                   span 2
-                | I need a ticket to San Andres for next Friday morning
+                | I need a ticket to San Andres for next friday morning
               li 
                 .lista-ol--cuadro__vineta.cuadro-listados--3
                   span 3
-                | I need a ticket to San Andres for next Friday morning
+                | I need a ticket to San Andres for next friday morning
               li.ps-4.mt-4
                 ol.lista-ol--cuadro
                   li  
@@ -538,29 +540,29 @@
       .col-lg-4: img(src="@/assets/curso/img13.svg")
     h3.fw-normal 
       b C. Try to identify the communicative functions 
-      | in the following dialogue between a Ticketing Agent and a Customer. // 
+      | in the following dialogue between a ticketing agent and a customer. / 
       b Se deben intentar identificar las funciones 
       | comunicativas presentes en el siguiente diálogo entre un agente de venta de tiquetes y un cliente.
     .row.align-items-center.justify-content-center
       .col-lg-5: img(src="@/assets/curso/img14.svg")
       .col-lg-7
-        .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+        .tarjeta-idioma.px-5.py-4.mb-4
           p.mb-0 Do you have any flights to San Andres Island next Friday morning?
         p ¿Tiene vuelos para San Andrés para el próximo viernes en la mañana?
     .cuadro-dialogos.p-5.mb-5
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Ticketing Agent:
+          h5.texto--4.mb-2 Ticketing agent:
         .col-lg-6
-          p.texto--4.mb-2 SENA Airlines, good morning. How may I help you?
+          p.texto--4.mb-2 SENA airlines, good morning. How may I help you?
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Mary Jones:
         .col-lg-6
-          p.texto--5.mb-2 Good morning. Do you have any flights to San Andres Island next Friday morning?
+          p.texto--5.mb-2 Good morning. Do you have any flights to San Andres Island next friday morning?
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Ticketing Agent:
+          h5.texto--4.mb-2 Ticketing agent:
         .col-lg-6
           p.texto--4.mb-2 Just one moment, please... Yes. There´s a flight at 9:45 and one at 11:00.
       .row.justify-content-center
@@ -570,7 +572,7 @@
           p.texto--5.mb-2 OK. Could you tell me how much is a round-trip ticket? I´ll be staying four weeks.
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Ticketing Agent:
+          h5.texto--4.mb-2 Ticketing agent:
         .col-lg-6
           p.texto--4.mb-2 Economy, business class or first-class ticket?
       .row.justify-content-center
@@ -580,7 +582,7 @@
           p.texto--5.mb-2 Economy, please.
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Ticketing Agent:
+          h5.texto--4.mb-2 Ticketing agent:
         .col-lg-6
           p.texto--4.mb-2 That would be US$450.
       .row.justify-content-center
@@ -590,7 +592,7 @@
           p.texto--5.mb-2 OK. Can you book it for me, please?
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Ticketing Agent:
+          h5.texto--4.mb-2 Ticketing agent:
         .col-lg-6
           p.texto--4.mb-2 Of course. Which flight would you like?
       .row.justify-content-center
@@ -600,7 +602,7 @@
           p.texto--5.mb-2 The 9:45, please. 
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Ticketing Agent:
+          h5.texto--4.mb-2 Ticketing agent:
         .col-lg-6
           p.texto--4.mb-2 Could you tell me your name, please?
       .row.align-items-center.justify-content-center
@@ -610,7 +612,7 @@
           p.texto--5.mb-2 It´s Mark Miller, M-A-R-K M-I-L-L-E-R.
       .row.align-items-center.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Ticketing Agent:
+          h5.texto--4.mb-2 Ticketing agent:
         .col-lg-6
           p.texto--4.mb-2 How would you like to pay, Mr. Miller?
       .row.justify-content-center
@@ -620,7 +622,7 @@
           p.texto--5.mb-2 Can I pay at the check-in desk when I pick up my ticket?
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Ticketing Agent:
+          h5.texto--4.mb-2 Ticketing agent:
         .col-lg-6
           p.texto--4.mb-2 Yes, but you will have to confirm this reservation at least two hours before departure time.
       .row.justify-content-center
@@ -630,7 +632,7 @@
           p.texto--5.mb-2 I understand.
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--4.mb-2 Ticketing Agent:
+          h5.texto--4.mb-2 Ticketing agent:
         .col-lg-6
           p.texto--4.mb-2 Now you have been booked, Mr. Miller. The flight departs at 9:45, and arrives in San Andres Island at 12:05, local time. The flight number is SNA 427
       .row.justify-content-center.mt-4
@@ -639,15 +641,15 @@
         .col-lg-6
           p.texto--5.mb-2 Thank you.
     #t_1_3.titulo-segundo
-      h2 1.3 <i>Information Record</i> //  Registro de la información 
-    .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+      h2 1.3 Information record /  Registro de la información 
+    .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 Registering and interpreting the information in the system is of utmost importance to guarantee the optimal provision of the service and that the real need of the passenger is being met.
     p La información e interpretar la información en el sistema es de suma importancia para garantizar la óptima prestación del servicio y que se esté cubriendo la necesidad real del pasajero.
-    h4 A. <i>Making a ticket inquiry at the airport.</i>  // Solicitando un tiquete en el aeropuerto.
+    h4 A. Making a ticket inquiry at the airport  / Solicitando un tiquete en el aeropuerto.
     .row.justify-content-center.align-items-center
       .col-lg-4: img(src="@/assets/curso/img15.svg")
       .col-lg-8 
-        .tarjeta-idioma.px-5.py-4.fst-italic.mb-4
+        .tarjeta-idioma.px-5.py-4.mb-4
           p.mb-0 Pay attention at the way the attendant gets and interprets the information given both by the passenger and by the system. 
         p Se debe prestar atención a la forma en que la auxiliar obtiene e interpreta la información proporcionada tanto por el pasajero como por el sistema.
     .cuadro-dialogos.p-5.mb-5
@@ -655,32 +657,32 @@
         .col-lg-2.justify-content-end
           h5.texto--4.mb-2 Attendant:
         .col-lg-6
-          p.texto--4.mb-2 Hello, how may I help you, sir?
+          p.texto--4.mb-2 hello, how may I help you, sir?
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2 Hello, I need to board the next flight to Cali. Can you help me with seat availability?
+          p.texto--5.mb-2 hello, I need to board the next flight to Cali. Can you help me with seat availability?
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--4.mb-2 Attendant:
         .col-lg-6
-          p.texto--4.mb-2 Sure, sir. May I know who else is traveling with you?
+          p.texto--4.mb-2 sure, sir. May I know who else is traveling with you?
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2 It's just me.
+          p.texto--5.mb-2 it's just me.
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--4.mb-2 Attendant:
         .col-lg-6
-          p.texto--4.mb-2 Would you be O.K. with a multi-stop flight?
+          p.texto--4.mb-2 would you be O.K. with a multi-stop flight?
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2 It would be better if you can give me a seat on a direct flight.
+          p.texto--5.mb-2 it would be better if you can give me a seat on a direct flight.
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--4.mb-2 Attendant:
@@ -690,32 +692,32 @@
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2 And what about after that?
+          p.texto--5.mb-2 and what about after that?
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--4.mb-2 Attendant:
         .col-lg-6
-          p.texto--4.mb-2 Then, you can board the flight at 7:25 pm.
+          p.texto--4.mb-2 then, you can board the flight at 7:25 pm.
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2 And when is the flight with multiple stops?
+          p.texto--5.mb-2 and when is the flight with multiple stops?
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--4.mb-2 Attendant:
         .col-lg-6
-          p.texto--4.mb-2 That one is scheduled at 6:10 pm. It has one stop in between and you can reach Cali by 10:30 pm.
+          p.texto--4.mb-2 that one is scheduled at 6:10 pm. It has one stop in between and you can reach Cali by 10:30 pm.
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2 Well, if that is case, please, make a reservation in this one.
+          p.texto--5.mb-2 well, if that is case, please, make a reservation in this one.
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--4.mb-2 Attendant:
         .col-lg-6
-          p.texto--4.mb-2 Sure, sir. May I have your name, please?
+          p.texto--4.mb-2 sure, sir. May I have your name, please?
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
@@ -725,7 +727,7 @@
         .col-lg-2.justify-content-end
           h5.texto--4.mb-2 Attendant:
         .col-lg-6
-          p.texto--4.mb-2 Age, please.
+          p.texto--4.mb-2 age, please.
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
@@ -735,7 +737,7 @@
         .col-lg-2.justify-content-end
           h5.texto--4.mb-2 Attendant:
         .col-lg-6
-          p.texto--4.mb-2 Now, I need your contact number, please.
+          p.texto--4.mb-2 now, I need your contact number, please.
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
@@ -745,17 +747,17 @@
         .col-lg-2.justify-content-end
           h5.texto--4.mb-2 Attendant:
         .col-lg-6
-          p.texto--4.mb-2 Here you are. A reservation is made under the name of Mr. Martin Kirkman, from Barranquilla to Cali departing at 6:10 pm. Is that ok, sir?
+          p.texto--4.mb-2 here you are. A reservation is made under the name of Mr. Martin Kirkman, from Barranquilla to Cali departing at 6:10 pm. Is that ok, sir?
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2 Yes.
+          p.texto--5.mb-2 yes.
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--4.mb-2 Attendant:
         .col-lg-6
-          p.texto--4.mb-2 How would you like to pay, sir?
+          p.texto--4.mb-2 how would you like to pay, sir?
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
@@ -765,40 +767,40 @@
         .col-lg-2.justify-content-end
           h5.texto--4.mb-2 Attendant:
         .col-lg-6
-          p.texto--4.mb-2 Can I have your credit card, please?
+          p.texto--4.mb-2 can I have your credit card, please?
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2 Yes, here it is.
+          p.texto--5.mb-2 yes, here it is.
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--4.mb-2 Attendant:
         .col-lg-6
-          p.texto--4.mb-2 Thank you, sir. You can check your e-mail. You would have received a confirmation message along with the flight details.
+          p.texto--4.mb-2 thank you, sir. You can check your e-mail. You would have received a confirmation message along with the flight details.
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2 Just let me check… Yes, I have received it. Thank you!
+          p.texto--5.mb-2 just let me check… Yes, I have received it. Thank you!
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--4.mb-2 Attendant:
         .col-lg-6
-          p.texto--4.mb-2 Anything else, sir?
+          p.texto--4.mb-2 anything else, sir?
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--5.mb-2 Customer:
         .col-lg-6
-          p.texto--5.mb-2 No. thank you.
+          p.texto--5.mb-2 no. thank you.
       .row.justify-content-center
         .col-lg-2.justify-content-end
           h5.texto--4.mb-2 Attendant:
         .col-lg-6
-          p.texto--4.mb-2 Hope you have a great flight!
+          p.texto--4.mb-2 hope you have a great flight!
     h3.fw-normal 
       b B. With the help of your tutor and 
-      |the use of a dictionary, look up any words you do not know in the dialogue above. Here are some of them. // 
+      |the use of a dictionary, look up any words you do not know in the dialogue above. Here are some of them / 
       b Con la ayuda del tutor y 
       |el uso de un diccionario, buscar los términos y expresiones desconocidas en el diálogo anterior. Aquí hay algunos de ellos
     .row.align-items-start
