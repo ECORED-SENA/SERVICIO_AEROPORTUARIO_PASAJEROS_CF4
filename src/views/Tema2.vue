@@ -419,13 +419,13 @@
               th
                 h4 I. We us CAN for possible options (I have the option to do something)
                 p 
-                  b <i>Example: </i> 
+                  b Example: 
                   | <i>You can visit some museums and some art galleries when you visit London</i>
             tr
               th
                 h4 II. We use CAN for suggestions
                 p 
-                  b <i>Example: </i> 
+                  b Example: 
                   | <i>You can have lunch at one of the seafood restaurants near the beach.</i>
     p.mb-5 A continuación, se podrá explorar el uso del verbo “PODER” en diversas actividades en sitios turísticos de Colombia. 
     .titulo-sexto.color-secundario
@@ -849,7 +849,7 @@
     .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 The travel industry is full of acronyms and key terms. They play a fundamental role in the flight booking industry, therefore, they are very important to know. In this section, we will look at some of the ones used in Amadeus Platform both in English and Spanish. 
     p.mb-5 La industria de viajes está llena de siglas y términos clave que desempeñan un papel fundamental en la industria de la reserva de vuelos, por lo que es muy importante conocerlos. En esta sección, se verán algunos de los que se utilizan en la plataforma Amadeus, tanto en inglés como en español.
-    h3 PNR search / Búsqueda de PNR <i>(PASSENGER NAME RECORD)</i>
+    h3 PNR search / Búsqueda de PNR <i>(Passenger Name Record)</i>
     ImagenInfografica.color-secundario.mb-5
 
       template(v-slot:imagen)
@@ -1261,7 +1261,7 @@
           .h5.mb-2.text-center.mb-0 Familia de tarifas
         .tarjeta.color-secundario.px-3.py-3(x="11.5%" y="88.5%")
           .h5.mb-2.text-center.mb-0 Adulto
-    h3 <i>FARE NOTE (FRN)</i> / Nota de condiciones de la tarifa 
+    h3 <i>Fare Note (FRN)</i> / Nota de condiciones de la tarifa 
     .row.mb-5.justify-content-center
       .col-lg-9
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
@@ -1276,7 +1276,7 @@
               | El manual Amadeus Altéa Reservation Desktop Web – User Guide - Edition 3.3 (2016, p. 151) explica que 
               b.texto--3 “las notas de tarifa contienen las condiciones y regulaciones aplicables a una tarifa específica”.
     .tarjeta-idioma.px-5.py-4.mb-4
-      p.mb-0 Have a look at the following fare note for that itinerary. Make a guided reading of each one of the conditions you can see in it. For guidance, please, refer to the spanish version underneath the following screen. 
+      p.mb-0 Have a look at the following Fare Note for that itinerary. Make a guided reading of each one of the conditions you can see in it. For guidance, please, refer to the spanish version underneath the following screen. 
     p.mb-5 Se sugiere dar un vistazo a la siguiente nota de tarifa para ese itinerario y hacer una lectura guiada de cada una de las condiciones que se pueden ver en ella. A manera de apoyo, consultar la versión en español debajo del siguiente pantallazo.
     .small-dots
       ImagenInfografica.color-secundario.mb-5
@@ -1397,7 +1397,7 @@
             br
             b DEPO Deposit Down Payment 
             |/ Pago de depósito
-    h4 PART 3 / PARTE 3      
+    h4 Part 3 / Parte 3      
     .color-primario3.mb-5.p-5
       .row.align-items-end
         .col-lg-4: img(src="@/assets/curso/img66.jpg")

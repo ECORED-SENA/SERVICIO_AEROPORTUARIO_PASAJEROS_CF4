@@ -188,7 +188,7 @@
       |antes de un número internacional. Por ejemplo, +57 es el código de marcación internacional de Colombia; +1 es el código de marcación internacional de Canadá.
       br
       br
-      |**@ is pronounced /at/ in English.
+      |**@ is pronounced /at/ in english.
       br
       |**@ se pronuncia /at/ en inglés.
     h3.mb-5 B. Tourists personal information / Información personal de los turistas 
@@ -354,27 +354,27 @@
           li 
             .lista-ol--cuadro__vineta.cuadro-listados--1
               span 1
-            | SENA airlines, good morning, may i help you?
+            | SENA airlines, good morning, may I help you?
           li 
             .lista-ol--cuadro__vineta.cuadro-listados--1
               span 2
-            | SENA airlines, good afternoon, may i help you?
+            | SENA airlines, good afternoon, may I help you?
           li 
             .lista-ol--cuadro__vineta.cuadro-listados--1
               span 3
-            | SENA airlines, good evening, may i help you?
+            | SENA airlines, good evening, may I help you?
           li 
             .lista-ol--cuadro__vineta.cuadro-listados--1
               span 4
-            | SENA airlines, good morning, can i help you?
+            | SENA airlines, good morning, can I help you?
           li 
             .lista-ol--cuadro__vineta.cuadro-listados--1
               span 5
-            | SENA airlines, good morning, how may i help you?
-          li 
+            | SENA airlines, good morning, how may I help you?
+          li  
             .lista-ol--cuadro__vineta.cuadro-listados--1
               span 6
-            | SENA airlines, good afternoon, how can i help you?
+            | SENA airlines, good afternoon, how can I help you?
           li.ps-4.mt-4
             ol.lista-ol--cuadro
               li  
@@ -540,9 +540,9 @@
       .col-lg-4: img(src="@/assets/curso/img13.svg")
     h3.fw-normal 
       b C. Try to identify the communicative functions 
-      | in the following dialogue between a ticketing agent and a customer. / 
+      | in the following dialogue between a ticketing agent and a customer / 
       b Se deben intentar identificar las funciones 
-      | comunicativas presentes en el siguiente diálogo entre un agente de venta de tiquetes y un cliente.
+      | comunicativas presentes en el siguiente diálogo entre un agente de venta de tiquetes y un cliente
     .row.align-items-center.justify-content-center
       .col-lg-5: img(src="@/assets/curso/img14.svg")
       .col-lg-7
@@ -645,7 +645,7 @@
     .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 Registering and interpreting the information in the system is of utmost importance to guarantee the optimal provision of the service and that the real need of the passenger is being met.
     p La información e interpretar la información en el sistema es de suma importancia para garantizar la óptima prestación del servicio y que se esté cubriendo la necesidad real del pasajero.
-    h4 A. Making a ticket inquiry at the airport  / Solicitando un tiquete en el aeropuerto.
+    h4 A. Making a ticket inquiry at the airport  / Solicitando un tiquete en el aeropuerto
     .row.justify-content-center.align-items-center
       .col-lg-4: img(src="@/assets/curso/img15.svg")
       .col-lg-8 
@@ -824,7 +824,7 @@
                 td Vuelo con varias escala
               tr
                 td Direct flight
-                td Vuelo Directo
+                td Vuelo directo
               tr
                 td Scheduled
                 td Programado

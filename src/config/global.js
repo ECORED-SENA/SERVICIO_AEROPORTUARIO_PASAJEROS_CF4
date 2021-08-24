@@ -138,7 +138,7 @@ export default {
     },
     {
       referencia:
-        'Ompersonal. (1999). Gramática inglesa en español. OM Grammar. ',
+        'Ompersonal. (1999). <i>Gramática inglesa en español</i>. OM Grammar. ',
       link: 'http://www.ompersonal.com.ar/omgrammar/indicetematico.htm',
     },
   ],
@@ -329,12 +329,6 @@ export default {
       {
         nombre: 'Andrés Mauricio Santaella ',
         cargo: 'Soporte front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
