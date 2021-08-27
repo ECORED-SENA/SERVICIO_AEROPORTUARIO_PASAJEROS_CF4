@@ -1349,7 +1349,7 @@
             |/ Equipo/Implementos deportivos
     .color-primario3.mb-5.p-5
       .row.align-items-end
-        .col-lg-4: img(src="@/assets/curso/img63.jpg")
+        .col-lg-4: img(src="@/assets/curso/img69.jpg")
         .col-lg-8
           p 
             br
@@ -1370,7 +1370,7 @@
     h4 Part 2 / Parte 2
     .color-secundario3.mb-5.p-5
       .row.align-items-end
-        .col-lg-4: img(src="@/assets/curso/img63.jpg")
+        .col-lg-4: img(src="@/assets/curso/img64.jpg")
         .col-lg-8
           p 
             b FQTR Redemption 
@@ -1383,7 +1383,7 @@
             |/ Programa de acumulación de millas de viajero frecuente
     .color-secundario3.mb-5.p-5
       .row.align-items-end
-        .col-lg-4: img(src="@/assets/curso/img64.jpg")
+        .col-lg-4: img(src="@/assets/curso/img63.jpg")
         .col-lg-8
           p 
             b Meals 

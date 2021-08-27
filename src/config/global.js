@@ -225,7 +225,8 @@ export default {
       texto:
         'Dubicka, I., y O´Keeffe, M. (2003). <i>English For International Tourism. Pre-intermediate Student´s Book</i>. Pearson Education Limited.',
       tipo: 'Libro',
-      link: 'http://www.longman.com',
+      link:
+        'https://www.pearson.com/english/catalogue/business-english/english-for-international-tourism.html',
     },
     {
       texto:
