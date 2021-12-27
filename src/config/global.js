@@ -38,7 +38,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo:
-              'PárrafosAssistance to traveler´s requests / Atención a los requerimientos ',
+              'Assistance to traveler´s requests / Atención a los requerimientos ',
             hash: 't_1_2',
           },
           {
@@ -179,8 +179,8 @@ export default {
       significado: 'paquete turístico',
     },
     {
-      termino: 'Personal informtion',
-      termHTML: '<i>Personal informtion</i>',
+      termino: 'Personal information',
+      termHTML: '<i>Personal information</i>',
       significado: 'información personal',
     },
     {

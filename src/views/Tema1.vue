@@ -557,7 +557,7 @@
           p.texto--4.mb-2 SENA airlines, good morning. How may I help you?
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--5.mb-2 Mary Jones:
+          h5.texto--5.mb-2 Mark Miller:
         .col-lg-6
           p.texto--5.mb-2 Good morning. Do you have any flights to San Andres Island next friday morning?
       .row.justify-content-center
@@ -567,7 +567,7 @@
           p.texto--4.mb-2 Just one moment, please... Yes. There´s a flight at 9:45 and one at 11:00.
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--5.mb-2 Mary Jones:
+          h5.texto--5.mb-2 Mark Miller:
         .col-lg-6
           p.texto--5.mb-2 OK. Could you tell me how much is a round-trip ticket? I´ll be staying four weeks.
       .row.justify-content-center
@@ -577,7 +577,7 @@
           p.texto--4.mb-2 Economy, business class or first-class ticket?
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--5.mb-2 Mary Jones:
+          h5.texto--5.mb-2 Mark Miller:
         .col-lg-6
           p.texto--5.mb-2 Economy, please.
       .row.justify-content-center
@@ -587,7 +587,7 @@
           p.texto--4.mb-2 That would be US$450.
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--5.mb-2 Mary Jones:
+          h5.texto--5.mb-2 Mark Miller:
         .col-lg-6
           p.texto--5.mb-2 OK. Can you book it for me, please?
       .row.justify-content-center
@@ -597,7 +597,7 @@
           p.texto--4.mb-2 Of course. Which flight would you like?
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--5.mb-2 Mary Jones:
+          h5.texto--5.mb-2 Mark Miller:
         .col-lg-6
           p.texto--5.mb-2 The 9:45, please. 
       .row.justify-content-center
@@ -607,7 +607,7 @@
           p.texto--4.mb-2 Could you tell me your name, please?
       .row.align-items-center.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--5.mb-2 Mary Jones:
+          h5.texto--5.mb-2 Mark Miller:
         .col-lg-6
           p.texto--5.mb-2 It´s Mark Miller, M-A-R-K M-I-L-L-E-R.
       .row.align-items-center.justify-content-center
@@ -617,7 +617,7 @@
           p.texto--4.mb-2 How would you like to pay, Mr. Miller?
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--5.mb-2 Mary Jones:
+          h5.texto--5.mb-2 Mark Miller:
         .col-lg-6
           p.texto--5.mb-2 Can I pay at the check-in desk when I pick up my ticket?
       .row.justify-content-center
@@ -627,7 +627,7 @@
           p.texto--4.mb-2 Yes, but you will have to confirm this reservation at least two hours before departure time.
       .row.justify-content-center
         .col-lg-2.justify-content-end
-          h5.texto--5.mb-2 Mary Jones:
+          h5.texto--5.mb-2 Mark Miller:
         .col-lg-6
           p.texto--5.mb-2 I understand.
       .row.justify-content-center
@@ -637,7 +637,7 @@
           p.texto--4.mb-2 Now you have been booked, Mr. Miller. The flight departs at 9:45, and arrives in San Andres Island at 12:05, local time. The flight number is SNA 427
       .row.justify-content-center.mt-4
         .col-lg-2.justify-content-end
-          h5.texto--5.mb-2 Mary Jones:
+          h5.texto--5.mb-2 Mark Miller:
         .col-lg-6
           p.texto--5.mb-2 Thank you.
     #t_1_3.titulo-segundo

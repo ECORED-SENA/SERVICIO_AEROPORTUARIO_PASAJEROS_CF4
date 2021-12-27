@@ -403,7 +403,7 @@
     #t_2_2.titulo-segundo
       h2 2.2 Information about tourist destinations / Información de destinos turísticos
     .tarjeta-idioma.px-5.py-4.mb-4
-      p.mb-0 Being prepared to answer, both in our native language and in English, the most common tourism questions is very useful during customer service at the airport. The traveler always hopes to receive enough information about airports, places of interest related to their the destination, weather, transportation, itineraries, tourist information points, restaurants, etc. Therefore, it is necessary to manage a specific vocabulary of the places that the passenger wishes to visit.
+      p.mb-0 Being prepared to answer, both in our native language and in English, the most common tourism questions are very useful during customer service at the airport. The traveler always hopes to receive enough information about airports, places of interest related to their the destination, weather, transportation, itineraries, tourist information points, restaurants, etc. Therefore, it is necessary to manage a specific vocabulary of the places that the passenger wishes to visit.
     p.mb-5 Estar preparados para responder, tanto en la lengua nativa como en inglés, a las preguntas más habituales de turismo es de gran utilidad durante la atención al cliente en el aeropuerto. El viajero siempre espera poder recibir suficiente información sobre los aeropuertos, sitios de interés en el destino, clima, transporte, itinerarios, puntos de información turística, restaurantes, etc. Se debe, por lo tanto, tener manejo de un vocabulario específico de los lugares que el pasajero desea visitar. 
     h3 A. The verb “CAN” / El Verbo “PODER”
     .tarjeta-idioma.px-5.py-4.mb-4
@@ -417,7 +417,7 @@
           table
             tr
               th
-                h4 I. We us CAN for possible options (I have the option to do something)
+                h4 I. We use CAN for possible options (I have the option to do something)
                 p 
                   b Example: 
                   | <i>You can visit some museums and some art galleries when you visit London</i>
@@ -490,9 +490,9 @@
             h5 SOME DESTINATIONS AND THINGS TO DO
             p.mb-0 You 
               span.texto--3 can 
-              | wander through the streets of
+              | wander through the streets about
               br
-              |Old Town Cartagena.
+              |Old Town, Cartagena.
       .col-lg-6
         .tarjeta-destinos.p-3.d-flex.align-items-center
           img(src='@/assets/curso/img42.svg', alt='Texto que describa la imagen' style='width: 190px')
@@ -902,7 +902,7 @@
     h3 Finding flights using an availability search / Búsqueda de vuelos mediante una búsqueda de disponibilidad 
     .tarjeta-idioma.px-5.py-4.mb-4
       p.mb-0 
-        b An availability search displays
+        b An availability search displays 
         | a list of available or scheduled flights for up to 16 city pairs on given dates. You can define additional search options to help return the most accurate results for your search.
         br
         br
@@ -1276,7 +1276,7 @@
               | El manual Amadeus Altéa Reservation Desktop Web – User Guide - Edition 3.3 (2016, p. 151) explica que 
               b.texto--3 “las notas de tarifa contienen las condiciones y regulaciones aplicables a una tarifa específica”.
     .tarjeta-idioma.px-5.py-4.mb-4
-      p.mb-0 Have a look at the following Fare Note for that itinerary. Make a guided reading of each one of the conditions you can see in it. For guidance, please, refer to the spanish version underneath the following screen. 
+      p.mb-0 Have a look at the following Fare Note for that itinerary. Make a guided reading of each one of the conditions you can see in it. For guidance, please, refer to the Spanish version underneath the following screen. 
     p.mb-5 Se sugiere dar un vistazo a la siguiente nota de tarifa para ese itinerario y hacer una lectura guiada de cada una de las condiciones que se pueden ver en ella. A manera de apoyo, consultar la versión en español debajo del siguiente pantallazo.
     .small-dots
       ImagenInfografica.color-secundario.mb-5
